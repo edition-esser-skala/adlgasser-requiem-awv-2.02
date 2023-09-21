@@ -6,7 +6,14 @@
 \include "ees_articulate.ly"
 
 
+markRequiemDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Requiem da capo"
+}
+
+
 tempoIntroitus = \tempoMarkup "Adagio"
+  tempoTeDecet = \tempoMarkup "Andantino"
 
 
 \include "notes/clno1.ly"

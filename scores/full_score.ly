@@ -6,7 +6,7 @@
 \book {
   \bookpart {
     \section "1" "Introitus"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
@@ -83,7 +83,7 @@
         \new FiguredBass { \IntroitusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 50 } % 90
     }
   }
 }
