@@ -1,0 +1,19 @@
+composer:
+  last: Adlgasser
+  first: Anton Cajetan
+title: Requiem
+id: CatAd 2.02
+genre: requiem
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), 3 trb, timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Sd
+    shelfmark: A 3
+    rism: 659000013
+    license: public domain
+    principal: true
+    notes: This edition bases upon a handwritten full score that was discarded from the Bibliotheca Mozartiana. This score has been assembled from the parts in A-Sd and was presumably used for recording the work in 1980/81 (CD released by Koch Treasure, 3-1608-2).
+imslp:
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
