@@ -309,3 +309,116 @@ SequentiaViolinoI = {
     d8 d d d c4 r\fermata \bar "|." %202 finis
   }
 }
+
+OffertoriumViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoOffertorium
+    r2 r8 g'16(\f a) g( h) h( c)
+    c4 r r8 g16( a) g( h) h( c)
+    c g a h c8 h16( a) \appoggiatura g4 f2
+    e16 e'-! d-! c-! h-! a-! g-! a-! g8. f32 e f8 f
+    e4 e'16\p e, e( fis) g4 r8 g16( h) %5
+    a8. fis32 e d8 c h4 c'8 h
+    a a16( h) a8 d-! cis(\fp d) r d-!
+    cis(\fp d) d32([ e fis e)] d16 d, r8 c'-! r c-!
+    h8. c32 d e8-! e-! d32( g16.) e32( c16.) h8( a)
+    g8.\f a32 h c8-! c-! h8.\trill c32 d e8-! e-! %10
+    d32( g16.) e32( c16.) h8 a g4 r
+    r8 d'16( e) d( fis) fis( g) g4 r
+    r g,16 g g g as as as as as as as as
+    h8. h16 h8[ r16 c]-! c8( as) r8. as16-!
+    as8( f) g4~\p g8 f16( es) f4 %15
+    g8 g,16( as) g( as) g( as) g4 r
+    r8 d' g h r h c h16 a!
+    g8 g, h d g h a4
+    g8 d'16 c h a g f! e8 c'4 h8
+    c g c, r r2 %20
+    r8 c' c, r r2
+    r <g e' c'>8.\f d''32 e f8-! f-!
+    e8. f32 g a8-! a-! g32( c16.) a16[ g32 f] e8 d \noBreak
+    c4 r r2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoQuam \newSpacingSection
+      R1*8 %32
+    c1\f
+    d2 e
+    a,2. h4 %35
+    c e2 d8( c)
+    h4 a g2
+    fis4 a d2~
+    d4 c8( h) a4 d8( c)
+    h1 %40
+    g2 r
+    R1*3
+    a1 %45
+    h2 c
+    fis, gis
+    a a~
+    a4 g!8( f!) g2
+    g f %50
+    R1*2
+    r4-\critnote a d2~
+    d4 c h a
+    g a8( h) c2~ %55
+    c4 h8( a) h2
+    c r
+    R1
+    r2 c
+    d e %60
+    a, h
+    c4 e2 d8( c)
+    h2 c
+    r d~
+    d4 c8( h) c2~ %65
+    c4 h8( a) d4 c
+    h2 c~
+    c h \noBreak
+    c1\fermata \bar "||"
+    \key f \major \time 3/4 \tempoHostias \newSpacingSection
+      c2~\f c8 d16( c) \noBreak %70
+    c4~ c16 e g f e d c b
+    a b c d c8-! c~ \tuplet 3/2 8 { c16[ b a] g f e }
+    f8. a32 g f4 r8. f'16-!
+    f16.( d32) d8~ d16. f,32-! f16.( b32) b16.( d32) d16.( f32)
+    f16.( c32) c8~ c16. f,32-! f16.( a32) a16.( c32) c16.( f32) %75
+    f4( e8) g16 f e d c b
+    a8. g32 f g2\trill
+    f8 c a r r4
+    c'~\p c16 e g f e d c b
+    a b c d c8-! c~ \tuplet 3/2 8 { c16[ b a] g f e } %80
+    f8. a32 g f4 r8. f'16-!
+    f16.( d32) d8~ d16. f,32-! f16.( b32) b16.( d32) d16.( f32)
+    f16.( c32) c8~ c16. f,32-! f16.( a32) a16.( c32) c16.( f32)
+    \appoggiatura f4 e4. g16 f e d c b
+    a8 a16 b a8 g f4 %85
+    r8 d' d d d16( h) a( g)
+    c d e f g8 g, c e
+    d~ d32( e f e) d8 c4 c8
+    c4( h8) g\f d h
+    g4 r16 f''-!\fp f16.( d32) d16.( h32) h16.( g32) %90
+    g4 r16 g'-!\fp g16.( e32) e16.( c32) c16.( g32)
+    g4 r16 f'-!\fp f16.( d32) d16.( h32) h16.( g32)
+    g8 e' e e e e
+    es es es es es es
+    es es d d d d %95
+    c4\f g'4. a16( g)
+    g4~ g16 h d c h a g f
+    \appoggiatura f e!8 d16 c d2\trill
+    c8 g c, r r4
+    r8 a'\p a a a16 fis e d %100
+    g a b! c d8 d, g b
+    a~ a32( b c b) a8 c4 b16 a
+    g4 r8 d'16 c b a g f!
+    e8~ e32( f g f) e8 b'4 a16 g
+    a4 r8 c-!\f a-! f-! %105
+    c4 r16 b'-!\fp b16.( g32) g16.( e32) e16.( c32)
+    c4 r16 c'-!\fp c16.( a32) a16.( f32) f16.( c32)
+    c4 r16 b'-!\fp b16.( g32) g16.( e32) e16.( c32)
+    c8 a' a a a a
+    g g g g g g %110
+    g r r4 r
+    r16 a'\f g f e d c h c g32( a) b16-! b-!
+    \appoggiatura b a8 g16 f g2\trill
+    f4 r r\fermata \markQuamDaCapo \bar "||" %114 finis
+  }
+}

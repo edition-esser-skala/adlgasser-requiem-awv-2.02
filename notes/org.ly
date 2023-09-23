@@ -645,3 +645,282 @@ SequentiaBassFigures = \figuremode {
   r2 <6>4. <7>8
   \bo <[5] 4>4 \bc <[\t] _!>2. %202 finis
 }
+
+OffertoriumOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoOffertorium
+    \mvTr c4.\f-\tutti c8 d e r4
+    c4. c8 d e r4
+    r c8 c d d g, g
+    c4 r r8 g'-\solo g g
+    c, c'\p c c h h, h h %5
+    fis'4 r8 d g g, c c
+    d d d d es( d) d d
+    es( d) d d e4 fis
+    g8 g g g g c, d d,
+    g4 r g\f r %10
+    g8 c d d, g'4.-\tutti h16 g
+    fis8 g r4 g4. h16 g
+    fis8 g g,2.
+    g8. g16 g4 r8. as'16-! as8( f16) f-!
+    f8( d16) d-! h8\p c as as as as %15
+    g4 g8 g g4 r
+    r8 h-\solo h h c d e! fis
+    g4 r r8 e c d
+    g,4 r r8 a' f! g
+    c,4 r r8 c4 h8 %20
+    c4 r r8 c4 h8
+    c a f g c4\f r
+    c r c8 f g g, \noBreak
+    c4 r r2\fermata \bar "||"
+    \twotwotime \clef "treble_8" \time 2/2 \tempoQuam \newSpacingSection
+      \mvTr c'1-!\f-\tutti ^\tweak TextScript.X-offset #0 ^\critnote \noBreak %25
+    d2-! e-!
+    a,2.-! h4-!
+    c-! e2-! d8-! c-!
+    << {
+      g'1
+      a2 h %30
+      e,2. fis4
+      g a2 g8 f
+    } \\ {
+      h,4 a g a8 h
+      c2 d~ %30
+      d4 c8 h a4 d8 c
+      h4. a8 g2
+    } >>
+    \clef treble << {
+      c'1
+      d2 e
+      a,2. h4 %35
+      c e2 d8 c
+    } \\ {
+      \shiftOnn e,4 d c2
+      h4 d g2~
+      g4 f8 e d4 g8 f %35
+      e4. d8 c2
+    } \\ {
+      \voiceFour \shiftOff a1
+      g2 r
+      \override MultiMeasureRest.staff-position = #-15 R1*2
+    } >>
+    \clef bass g1
+    a2 h
+    e, fis
+    g4 a2 g8 f %40
+    e2 a~
+    a g~
+    g4 f8 e d4 g8 f
+    e4 d c d8 e
+    f1 %45
+    e2 \clef treble << {
+      c''
+      fis, gis
+      a a~
+      a4 g!8 f! g2
+    } \\ {
+      e2~
+      e4 d8 c h4 e
+      c a2 h8 c
+      h2. cis4
+    } >>
+    \clef bass d,1 %50
+    e2 f
+    h, cis
+    d4 d2 e8 f
+    g2 g4 f
+    e2. f8 e %55
+    d1
+    c2 \clef treble << {
+      r2
+      R1
+      r2 c''
+      d e %60
+      a, h
+    } \\ {
+      \voiceThree a
+      d, e
+      f f4 f
+      h,!2 c %60
+      \voiceTwo r4 f8 e d4 g8 f
+    } \\ {
+      \voiceFour \shiftOff c2~
+      c4 b8 a g4 c
+      a1
+      g2 r %60
+      \override MultiMeasureRest.staff-position = #-15 R1
+    } >>
+    \clef bass c,1
+    d2 e
+    a, h
+    c4 c2 d8 e %65
+    f2 d
+    g c
+    g1 \noBreak
+    c,\fermata \bar "||"
+    \key f \major \time 3/4 \tempoHostias \newSpacingSection
+      \mvTr f8\f-\solo f f f f f \noBreak %70
+    e e e e e e
+    f f f f c c
+    d d a a f f
+    r f b d f b
+    r f, a c f a %75
+    c, c c c c e
+    f d c c c, c
+    f f'\p f f f f
+    e e e e e e
+    f f f f c c %80
+    d d a a f f
+    r f b d f b
+    r f, a c f a
+    r g g g c, c
+    f4 f, r %85
+    r8 f' f f f f
+    e e e e e e
+    f f fis fis fis fis
+    g4 g, r
+    g r r %90
+    g r r
+    g r r
+    r8 c' c c c c
+    fis, fis fis fis fis fis
+    g4 g g, %95
+    c8\f c c c c c
+    h h h h h h
+    c4 g' g,
+    c c r
+    r8 c\p c c c c %100
+    b! b b b b b
+    fis fis fis fis fis fis
+    g g g g g b
+    c c c c c c
+    f!4 f, r %105
+    c' r r
+    c r r
+    c r r
+    r8 f, f f f f
+    b b h h h h %110
+    c f c4 c,
+    f8 f'\f f f e e
+    f f, c'4 c, \noBreak
+    f r r\fermata \markQuamDaCapo \bar "||" %114 finis
+  }
+}
+
+OffertoriumBassFigures = \figuremode {
+  r2 <6>8 q4.
+  r2 <6>8 q4.
+  r2 <[4]>4 <7>
+  r2 r8 q4.
+  r2 <6> %5
+  q4. <7 _+> <8 6>8 <7 5>
+  <_+>2 <6\\>8 <_+>4.
+  <6\\>8 <_+>4. <6!>2
+  r4 <6 4> <5 3>8 <6> <6 4> <5 _+>
+  r1 %10
+  r8 <6> <6 4> <5 _+> r2
+  <7 5>1
+  q4 <1>2.
+  <7!>2 r8. <5- 3>16 r8 <_->
+  r4 <[6]>8 <_-> <7 5->4 <6> %15
+  r1
+  r8 <6>4. <6 [_!]>8 <6 _+> <6> <6 5>
+  r2. <6 5>8 <_+>
+  r2. <6 5>4
+  r2. \bo <[4] 2>8 \bc <[\t] \t> %20
+  r2. \bo <[4] 2>8 \bc <[\t] \t>
+  r4 <[6 5]>2.
+  r2 r8 <[6]> <6 4> <5 3>
+  r1
+  r %25
+  r
+  r
+  r
+  r
+  r %30
+  r
+  r
+  r
+  r
+  r %35
+  r
+  r
+  <6\\>2 <6>
+  <7>4 <6> <6 5>2
+  <\l>2.. \once \bassFigureExtendersOn q8 %40
+  <6>1
+  <2>2 <6>
+  <[5] 2> <6>
+  <[6]>1
+  <6> %45
+  <_+>
+  r
+  r
+  r
+  <4>2 <3> %50
+  <6\\> <6>
+  <7>4 <6> <[6] 5>2
+  r1
+  \bo <[7 5]>4 <6 4> <5 3> <6>
+  \bc <[6 _]>1 %55
+  <7>2 <6>
+  r1
+  r
+  r
+  r %60
+  r
+  r
+  <6>2 q
+  <7> <5>
+  <9> <8> %65
+  r \bo <[10 8]>4 \bc <[9 7]>
+  r1
+  <4>2 <3>
+  r1
+  r2. %70
+  \bo <[6]>
+  r
+  r4 \bc q2
+  r8 <6 4>2 \bassFigureExtendersOn q8
+  r <5 3>2 q8 \bassFigureExtendersOff %75
+  <5 4>4 <\t 3>4. <[6]>8
+  r4 <4> <3>
+  r2.
+  <[6]>
+  r2 <6>4 %80
+  r <[6]>2
+  r8 <6 4>2 \bassFigureExtendersOn q8
+  r <5 3>2 q8 \bassFigureExtendersOff
+  r8 <[7]> <6>4 <7>
+  r2. %85
+  r8 <4! 2> r2
+  <6>2.
+  <6>4 <\t>8 <5>4.
+  <4>4 <_!>2
+  <7 _!>2. %90
+  <6 4>
+  <7 _!>
+  r
+  <7- 5>
+  <6- 4>4 <5 \t> <\t _!> %95
+  <[_!]>2.
+  <6>
+  r4 <4> <_!>
+  r2.
+  r8 <4\+ 2> r2 %100
+  <6>2.
+  <6>4. <5>
+  r2.
+  <9>4 <8>8 <7>4.
+  r2. %105
+  <7>
+  <6 4>
+  <7>
+  r
+  <6 5>4 <\t \t>2 %110
+  r4 <6 4>4 <5 3>
+  r2 <6>8 <5>
+  r4 <4> <3>
+  r2. %114 finis
+}

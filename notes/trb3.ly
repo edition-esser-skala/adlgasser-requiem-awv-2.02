@@ -161,3 +161,56 @@ SequentiaTromboneIII = {
     g2 c,4 r\fermata \bar "|." %202 finis
   }
 }
+
+OffertoriumTromboneIII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoOffertorium
+    c4.\f c16 c d8 e r4
+    c4. c8 d e r4
+    r c d g,
+    c r r2
+    R1*6 %10
+    r2 g'4.\f h16 g
+    fis8 g r8. g16 g4. h16 g
+    fis8 g r4 r2
+    g8. g16 g4 r8. as16 as8 f16 f
+    f8 d h\p c as2 %15
+    g4 r r2
+    R1*7 \noBreak %23
+    R1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoQuam \newSpacingSection
+      R1*12 %36
+    g'1\f
+    a2 h
+    e, fis
+    g4 a2 g8( f) %40
+    e2 a~
+    a g~
+    g4 f8( e) d4 g8( f)
+    e4 d c d8( e)
+    f1 %45
+    e2 r
+    R1*3
+    d1 %50
+    e2 f
+    h, cis
+    d4 d2 e8( f)
+    g2 g4 f
+    e2. \once \slurDashed f8( e) %55
+    d1
+    c2 r
+    R1*4 %61
+    c1
+    d2 e
+    a, h
+    c4 c2 d8( e) %65
+    f2 d4 d
+    g2 c4 c
+    g1 \noBreak
+    c,\fermata \bar "||"
+    \key f \major \time 3/4 \tempoHostias \newSpacingSection
+      R2.*44 \noBreak %113
+    R2.\fermata \markQuamDaCapo \bar "||" %114 finis
+  }
+}

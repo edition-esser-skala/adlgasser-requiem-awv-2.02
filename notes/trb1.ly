@@ -167,3 +167,68 @@ SequentiaTromboneI = {
     g2 g4 r\fermata \bar "|." %202 finis
   }
 }
+
+OffertoriumTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoOffertorium
+    g'4.\f g16 g f8 e r4
+    g4. g8 f e r4
+    r e d4. d8
+    c4 r r2
+    R1*6 %10
+    r2 d4.\f g16 g
+    a8 g r8. d16 d4. g16 g
+    a8 g g g g g16 g f!8 f
+    f8. f16 f4 r8. es16 es8 f
+    r4 d8\p es c2 %15
+    h4 r r2
+    R1*7\noBreak %23
+    R1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoQuam \newSpacingSection
+      R1*4 %28
+    g'1\f
+    a2 h %30
+    e,2. fis4
+    g a2 g8( f)
+    e4 d c2
+    h4 d g2~
+    g4 f8( e) d4 g8( f) %35
+    e4. d8 c2
+    d1
+    c2 r
+    R1
+    d %40
+    e
+    f2 h,4 c
+    d2. d4
+    g,2 r
+    R1 %45
+    r2 e'~
+    e4 d8( c) h4 e
+    c a2 h8( c)
+    h2. cis8 cis
+    d1 %50
+    cis2 d~
+    d e
+    a, r
+    R1*2 %55
+    f'1
+    g2 a
+    d, e
+    f f4 f
+    h,!2 c %60
+    r4 f8( e) d4 \once \slurDashed g8( f)
+    e2 g
+    r g~
+    g4 \once \slurDashed a8( g) f4 f
+    e2 e4 f8( g) %65
+    a2 a4 a
+    g1~
+    g \noBreak
+    g\fermata \bar "||"
+    \key f \major \time 3/4 \tempoHostias \newSpacingSection
+      R2.*44 \noBreak %113
+    R2.\fermata \markQuamDaCapo \bar "||" %114 finis
+  }
+}

@@ -95,3 +95,47 @@ SequentiaClarinoI = {
     \pa g d'16 d \pd d8 d c4 r\fermata \bar "|." %202 finis
   }
 }
+
+OffertoriumClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoOffertorium
+    c'4\f r r8 g'4 f8
+    e4 r r8 g4 f8
+    e e16 e e8 e \appoggiatura g4 f2^\critnote
+    e4 r r2
+    R1*6 %10
+    r2 \pao g,4\fE r8 d'
+    e d r4 d r8 d
+    e d r4 r2
+    R1*8 %21
+    \pa r2 c8.\f d32 e f8 f \pd
+    e8. f32 g a8 a g a16 f e8 d \noBreak
+    c4 r r2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoQuam \newSpacingSection
+      R1*16 %40
+    c1\f
+    \pa d2 e
+    c d
+    e1
+    d \pd %45
+    e2 r
+    R1*7 %53
+    d2 d4 d
+    c2. d8 e %55
+    f1
+    e2 r
+    R1*4 %61
+    r4 g2 f8 e
+    \pa d2 c
+    r f
+    e1 \pd %65
+    r2 f4 e
+    d2 e~
+    e d \noBreak
+    c1\fermata \bar "||"
+    \time 3/4 \tempoHostias \newSpacingSection
+      R2.*44 \noBreak %113
+    R2.\fermata \markQuamDaCapo \bar "||" %114 finis
+  }
+}

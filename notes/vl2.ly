@@ -312,3 +312,122 @@ SequentiaViolinoII = {
     g g h, h c4 r\fermata \bar "|." %202 finis
   }
 }
+
+OffertoriumViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoOffertorium
+    r2 r8 e16(\f f) e( d) d( c)
+    c4 r r8 e16( f) e( d) d( c)
+    c4 e8 e d4. d8
+    c16 c'-! h-! a-! g-! f-! e-! f-! e8. d32 c d8 d
+    c4 r8 e\p d8. e32 fis g4 %5
+    r r8 fis g8. a32 h a8 g
+    fis fis16( g) fis8 fis-! g(\fp fis) r fis-!
+    g(\fp fis) fis32([ g a g)] fis8 r g-! r a-!
+    g8. a32 h c8-! c-! h c32( a16.) g8( fis)
+    g4 r g8.\f a32 h c8-! c-! %10
+    h c32( a16.) g8 fis g4 r
+    r8 h16( c) h( a) a( g) g4 r
+    r g16 g g g g g g g f! f f f
+    f8. f16 f4 r8. es16-! es8( f)
+    r4 d8\p es c c c c %15
+    h g16( as) g( as) g( as) g4 r
+    r8 g h d r4 e!8 d16 c
+    h8 g h d g g4 fis8
+    g h16 a! g f! e d c8 e d4
+    c16( d) e4 r8 r2 %20
+    r8 c' c, r r2
+    r <c' e, g,>4\f r
+    q8. d32 e f8-! f-! e f16 e32 d c8 h \noBreak
+    c4 r r2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoQuam \newSpacingSection
+      R1*4 %28
+    g1\f
+    a2 h %30
+    e,2. fis4
+    g a2 g8( f)
+    e4 d c2
+    h4-\critnote d g2~
+    g4 f8( e) d4 g8( f) %35
+    e4. d8 c2
+    d1
+    c2 r
+    R1
+    d %40
+    e
+    f2 h,4 c
+    d2. d4
+    g,2 r
+    R1 %45
+    r2 e'~
+    e4 d8( c) h4 e
+    c a2 h8( c)
+    h2. cis4
+    d1 %50
+    cis2 d~
+    d e
+    a, r
+    R1*2 %55
+    f'1
+    g2 a
+    d, e
+    f f4 f
+    h,!2 c %60
+    r4 f8( e) d4 g8( f)
+    e2 g
+    r g~
+    g4 a8( g) f4 f
+    e2 e4 f8( g) %65
+    a2 a4 a
+    g1~
+    g~ \noBreak
+    g\fermata \bar "||"
+    \key f \major \time 3/4 \tempoHostias \newSpacingSection
+      r8 f\f a c f[ a] \noBreak %70
+    r c,, e g c[ g']
+    r a,16 b a8 a g g
+    f4 r8 f c a
+    b b b b b b
+    a a a a a a %75
+    g g g g' g g
+    f f f f e e
+    f4 r8 c'\p f a
+    r c,, e g c[ g']
+    r a,16 b a8 a e e %80
+    f4 r8 f c a
+    b b b b b b
+    a a a a a a
+    g[ b' b b] b a16 g
+    f8 f16 g f8 c a4 %85
+    r8 h'4 d8 g, a16( h)
+    c4~ c16 d e f g8 g,
+    a a a a a a
+    d,4 r8 g\f d h
+    g4 r8 g'\p h d %90
+    e,4 r8 g c e
+    h,4 r8 g' h d
+    e, g g g g g
+    c c c c c c
+    c c c c h h %95
+    c\fE c, e! g c[ e]
+    r g,, h d g[ d']
+    c c c c h h
+    c4 r8 es,\p a c
+    r fis,4 a8 d, e16 fis %100
+    g4~ g16 a b! c d8 d,
+    d c r fis a b16 c
+    b4 r8 g b d
+    d4( c8) g4 f16 e
+    f4 r8 c'-!\f a-! f-! %105
+    c4 r8 c\p e g
+    a,4 r8 c f a
+    e4 r8 c e g
+    a, f' f f f f
+    f f f f f f %110
+    e r r4 r
+    r16 a'\f g f e d c h c e,32( f) g16-! g-!
+    f2 e4
+    f r r\fermata \markQuamDaCapo \bar "||" %114 finis
+  }
+}

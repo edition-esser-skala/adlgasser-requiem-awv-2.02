@@ -95,3 +95,47 @@ SequentiaClarinoII = {
     g' g16 g g8 g g4 r\fermata \bar "|." %202 finis
   }
 }
+
+OffertoriumClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoOffertorium
+    e4\f r r8 e'4 d8
+    c4 r r8 e4 d8
+    c c16 c c8 c d2
+    c4 r r2
+    R1*6 %10
+    r2 g4\fE r8 g
+    c g r4 g r8 g
+    c g r4 r2
+    R1*8 %21
+    R1
+    c8.\f d32 e f8 f e f16 d c8 g \noBreak
+    e4 r r2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoQuam \newSpacingSection
+      R1*16 %40
+    c1\f
+    r2 g'
+    r r4 g8 g
+    c,4 c8 c c2
+    R1 %45
+    e2 r
+    R1*7 %53
+    g2 g4 g
+    g2 c %55
+    d1
+    g,2 r
+    R1*4 %61
+    r4 e'2 d8 c
+    f2 e
+    c d~
+    d c %65
+    r d4 c
+    g2 g
+    g g4 g \noBreak
+    e1\fermata \bar "||"
+    \time 3/4 \tempoHostias \newSpacingSection
+      R2.*44 \noBreak %113
+    R2.\fermata \markQuamDaCapo \bar "||" %114 finis
+  }
+}

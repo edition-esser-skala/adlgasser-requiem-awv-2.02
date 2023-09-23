@@ -10,6 +10,10 @@ markRequiemDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Requiem da capo"
 }
+markQuamDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Quam olim da capo"
+}
 
 
 tempoIntroitus = \tempoMarkup "Adagio"
@@ -18,6 +22,9 @@ tempoKyrie = \tempoMarkup "Allegro"
 tempoSequentia = \tempoMarkup "Allegretto"
   tempoLiber = \tempoMarkup "Andante"
   tempoLacrymosa = \tempoMarkup "Andante"
+tempoOffertorium = \tempoMarkup "Andante"
+  tempoQuam = \tempoMarkup "Quam olim · Vivace"
+  tempoHostias = \tempoMarkup "Versus · Moderato"
 
 
 \include "notes/clno1.ly"

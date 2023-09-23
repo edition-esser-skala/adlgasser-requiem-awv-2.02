@@ -163,3 +163,64 @@ SequentiaTromboneII = {
     c4 h c r\fermata \bar "|." %202 finis
   }
 }
+
+OffertoriumTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoOffertorium
+    e4.\f e16 e d8 c r4
+    e4. e8 d c r4
+    r c a g
+    g r r2
+    R1*6 %10
+    r2 h4.\f d16 d
+    e8 d r8. h16 h4. d16 d
+    e8 d r4 r2
+    d8. d16 d4 r8. c16 c8 c
+    r4 g8\p g as2 %15
+    d,4 r r2
+    R1*7 \noBreak %23
+    R1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoQuam \newSpacingSection
+      c'1\f \noBreak %25
+    d2 e
+    a,2. h4
+    c e2 d8 c
+    h4( a) g a8( h)
+    c2 d~ %30
+    d4 c8( h) a4 d8( c)
+    h4. a8 g2
+    a1
+    g2 r
+    R1*6 %40
+    c1
+    d2 e
+    a, h
+    c e4 e
+    d2 a %45
+    gis r
+    R1*4 %50
+    r4 e a2~
+    a4 g!8( f) e4 a8( g)
+    f2 f'~
+    f4 e d2
+    r g, %55
+    d' f
+    e4 d c2~
+    c4 \once \slurDashed b8( a) g4 c
+    a1
+    g2 r %60
+    R1
+    r2 c
+    f e
+    c d
+    g, g4 c %65
+    c2 f4 e
+    d2 e4 e
+    d1 \noBreak
+    e\fermata \bar "||"
+    \key f \major \time 3/4 \tempoHostias \newSpacingSection
+      R2.*44 \noBreak %113
+    R2.\fermata \markQuamDaCapo \bar "||" %114 finis
+  }
+}

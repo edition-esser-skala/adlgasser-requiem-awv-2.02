@@ -374,3 +374,126 @@ SequentiaTenoreLyrics = \lyricmode {
   a --
   _ men. %202 finis
 }
+
+OffertoriumTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoOffertorium
+    \mvTr e4.\fE^\tutti e16 e d8 c r4
+    e4. e8 d c r4
+    r c a g
+    g r r2
+    r4 \mvTr e'8\pE^\soloE d16 c d8. h32([ a)] g4 %5
+    a8. a16 h8 c h c16 h a8 g
+    fis16([ e)] d8 r d' cis d4 fis16([ d)]
+    cis8 d r4 r8 c c c
+    \tuplet 3/2 8 { h16([ a g)] } g8 e'8. e16 d8 e16([ c)] h8([ a)]
+    g4 r r2 %10
+    r \mvTr h4.\fE^\tutti d16 d
+    e8 d r8. h16 h4. d16 d
+    e8 d r4 r2
+    d8. d16 d4 r8. c16 c8 c
+    r4 g8\p g as2 %15
+    d,4 r r2
+    R1*7 \noBreak %23
+    R1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoQuam \newSpacingSection
+      \mvTr c'1\fE^\tuttiE \noBreak %25
+    d2 e
+    a,2. h4
+    c e2 d8([ c)]
+    h4( a) g a8([ h)]
+    c2 d~ %30
+    d4 c8[ h] a4 d8[ c]
+    h4. a8 g2
+    a1
+    g2 r
+    R1*6 %40
+    c1
+    d2 e
+    a, h
+    c e4 e
+    d2( a) %45
+    gis r
+    R1*4 %50
+    r4 e a2~
+    a4 g!8[ f] e4 a8 g
+    f2 f'~
+    f4 e d2
+    r g, %55
+    d' f
+    e4 d c2~
+    c4 b8 a g4 c
+    a1
+    g2 r %60
+    R1
+    r2 c
+    f e
+    c d
+    g, g4 c %65
+    c2 f4 e
+    d2 e4 e
+    d1 \noBreak
+    e\fermata \bar "||"
+    \key f \major \time 3/4 \tempoHostias \newSpacingSection
+      R2.*44 \noBreak %113
+    R2.\fermata \markQuamDaCapo \bar "||" %114 finis
+  }
+}
+
+OffertoriumTenoreLyrics = \lyricmode {
+  Do -- mi -- ne Ie -- su,
+  Ie -- su Chri -- ste,
+  Rex glo -- ri --
+  ae,
+  li -- be -- ra a -- ni -- mas %5
+  o -- mni -- um fi -- de -- li -- um de -- fun --
+  cto -- rum de poe -- nis in --
+  fer -- ni, et de pro --
+  fun -- do, de pro -- fun -- do __ la --
+  cu. %10
+  Li -- be -- ra
+  e -- as de o -- re le --
+  o -- nis,
+  tar -- ta -- rus, ne ca -- dant
+  in ob -- scu -- %15
+  rum.
+
+  Quam %25
+  o -- lim
+  A -- bra --
+  hae pro -- mi --
+  si -- sti, et __
+  se -- _ %30
+  _ _ _
+  _ mi -- ni
+  e --
+  ius,
+
+  quam %41
+  o -- lim
+  A -- bra --
+  hae pro -- mi --
+  si -- %45
+  sti,
+
+  et se -- %51
+  _ _ mi -- ni
+  e -- _
+  _ ius,
+  quam %55
+  o -- lim
+  A -- _ _
+  bra -- hae pro -- mi --
+  si --
+  sti, %60
+
+  quam
+  o -- lim
+  A -- bra --
+  hae pro -- mi -- %65
+  si -- sti, et
+  se -- mi -- ni
+  e --
+  ius. %69 finis
+}

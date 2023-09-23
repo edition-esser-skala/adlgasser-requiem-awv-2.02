@@ -82,3 +82,45 @@ SequentiaTimpani = {
     g g16 g g8 g c4 r\fermata \bar "|." %202 finis
   }
 }
+
+OffertoriumTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoOffertorium
+    c4\f r r8 c c c
+    c4 r r8 c c c
+    c4 r r g8 g
+    c4 r r2
+    R1*6 %10
+    r2 g4\fE r8 g
+    c g g g g4 r8 g
+    c g r4 r2
+    R1*8 %21
+    r2 c4\f r
+    c r c g8 g \noBreak
+    c4 r r2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoQuam \newSpacingSection
+      R1*16 %40
+    c1\f
+    r2 g
+    g4 g8 g g4 g
+    c2 c
+    R1*9 %53
+    g2 g4 g
+    c2 r %55
+    R1
+    c2 r
+    R1*4 %61
+    c2 c
+    g c
+    r g4 g
+    c2 r %65
+    R1
+    g2 c4 c
+    g2 g \noBreak
+    c1\fermata \bar "||"
+    \time 3/4 \tempoHostias \newSpacingSection
+      R2.*44 \noBreak %113
+    R2.\fermata \markQuamDaCapo \bar "||" %114 finis
+  }
+}

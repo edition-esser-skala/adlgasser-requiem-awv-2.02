@@ -414,26 +414,172 @@ SequentiaSopranoLyrics = \lyricmode {
   a -- men. %202 finis
 }
 
+OffertoriumSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoOffertorium
+    \mvTr c'4.\fE^\tutti e16 c h8 c r4
+    c4. e16([ c)] h8 c r4
+    c4._( h16[ a]) \appoggiatura g4 f4. f8
+    e4 r r2
+    R1*6 %10
+    r2 \mvTr g4.\fE^\tutti g16 g
+    c8 h r8. g16 g4. g16 g
+    c8 h g g as as16 as as8 as
+    h8. h16 h8 r16 c c8 as r8. as16
+    as8 f g4.\p f16([ es)] f4 %15
+    g r r2
+    R1*7 \noBreak %23
+    R1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoQuam \newSpacingSection
+      R1*8 %32
+    \mvTr c1\fE^\tuttiE
+    d2 e
+    a,2. h4 %35
+    c e2 d8([ c)]
+    h4( a g2)
+    fis4 a d2~
+    d4 c8[ h] a4 d8 c
+    h1 %40
+    g2 r
+    R1*3
+    a1 %45
+    h2 c
+    fis, gis
+    a a~
+    a4 g!8[ f!] g2
+    g f %50
+    R1*2
+    r4 a d2~
+    d4 c h a
+    g a8 h c2~ %55
+    c4 h8[ a] h2
+    c r
+    R1
+    r2 c
+    d e %60
+    a, h
+    c4 e2 d8([ c)]
+    h2 c
+    r d~
+    d4 c8[ h] c2~ %65
+    c4 h8 a d4 c8 c
+    h2 c~
+    c h \noBreak
+    c1\fermata \bar "||"
+    \key f \major \time 3/4 \tempoHostias \newSpacingSection
+      R2.*8 %77
+    \mvTr c2~\pE^\solo c8 d16([ c)]
+    c4 r r8 c
+    c4. a8 a a %80
+    \appoggiatura g16 f8. e16 f4 r
+    d'8. f,16 f4 r
+    c'8.([ f,16)] f4 f'8 e16 d
+    \appoggiatura c4 b2~ b8. b16
+    a4 r r8 f' %85
+    f2~ f16[ d] c([ h)]
+    c4 r r8 e
+    \appoggiatura e d4. c16([ h)] c8 c
+    \appoggiatura d c4 h r
+    d8.([ f!16)] f4 r %90
+    e8. d16 c4 r8. c16^\critnote
+    d8. e16 f4 r8 f
+    e2.
+    es2~ es8 d16 c
+    c2( h8.)\trill h16 %95
+    c4 r r
+    R2.*8 %104
+    r4 r r8 a %105
+    g8.([ b16)] b4 r8 g
+    a8.([ c16)] c4 r8 a
+    g8.([ b16)] b4 r8 b
+    a2.
+    g~ %110
+    g8 a16([ b)] a4( g)
+    f r r
+    R2.
+    R\fermata \markQuamDaCapo \bar "||" %114 finis
+  }
+}
 
+OffertoriumSopranoLyrics = \lyricmode {
+  Do -- mi -- ne Ie -- su,
+  Ie -- su Chri -- ste,
+  Rex __ glo -- ri --
+  ae.
 
-% # Offertorium
+  Li -- be -- ra %11
+  e -- as de o -- re le --
+  o -- nis, ne ab -- sor -- be -- at e -- as
+  tar -- ta -- rus, ne ca -- dant, ne
+  ca -- dant in ob -- scu -- %15
+  rum.
 
-% Do -- mi -- ne Ie -- su Chri -- ste, Rex glo -- ri -- ae,
-% li -- be -- ra a -- ni -- mas o -- mni -- um fi -- de -- li -- um de -- fun -- cto -- rum
-% de poe -- nis in -- fer -- ni, et de pro -- fun -- do la -- cu:
-% Li -- be -- ra e -- as de o -- re le -- o -- nis,
-% ne ab -- sor -- be -- at e -- as tar -- ta -- rus,
-% ne ca -- dant in ob -- scu -- rum.
-% Sed si -- gni -- fer san -- ctus Mi -- cha -- el
-% re -- prae -- sen -- tet e -- as in lu -- cem san -- ctam.
-% Quam o -- lim A -- bra -- hae pro -- mi -- si -- sti, et se -- mi -- ni e -- ius.
+  Quam %33
+  o -- lim
+  A -- bra -- %35
+  hae pro -- mi --
+  si --
+  sti, et se --
+  _ _ mi -- ni
+  e -- %40
+  ius,
 
-% Ho -- sti -- as et pre -- ces ti -- bi, Do -- mi -- ne,
-% lau -- dis of -- fe -- ri -- mus:
-% Tu su -- sci -- pe pro a -- ni -- ma -- bus il -- lis,
-% qua -- rum ho -- di -- e me -- mo -- ri -- am fa -- ci -- mus.
-% Fac e -- as, Do -- mi -- ne, de mor -- te trans -- i -- re ad vi -- tam.
-% Quam o -- lim A -- bra -- hae pro -- mi -- si -- sti, et se -- mi -- ni e -- ius.
+  quam %45
+  o -- lim
+  A -- bra --
+  hae pro --
+  _ mi --
+  si -- sti, %50
+
+  et se -- %53
+  _ _ _
+  _ mi -- ni e -- %55
+  _ _
+  ius,
+
+  quam
+  o -- lim %60
+  A -- bra --
+  hae pro -- mi --
+  si -- sti,
+  et __
+  _ se -- %65
+  mi -- ni, se -- mi -- ni
+  e -- _
+  _
+  ius.
+
+  Ho -- sti -- %78
+  as et
+  pre -- ces ti -- bi, %80
+  Do -- mi -- ne,
+  ho -- sti -- as
+  lau -- dis ti -- bi of --
+  fe -- ri --
+  mus: Tu %85
+  su -- sci --
+  pe pro
+  a -- ni -- ma -- bus
+  il -- lis,
+  qua -- rum %90
+  ho -- di -- e me --
+  mo -- ri -- am, me --
+  mo --
+  _ ri -- am
+  fa -- ci -- %95
+  mus.
+
+  De %105
+  mor -- te trans --
+  i -- re, trans --
+  i -- re de
+  mor --
+  te __ %110
+  ad __ vi --
+  tam. %112 finis
+}
+
 
 
 % # Sanctus

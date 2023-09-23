@@ -381,3 +381,141 @@ SequentiaBassoLyrics = \lyricmode {
   a -- _ _ men,
   a -- men. %202 finis
 }
+
+OffertoriumBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoOffertorium
+    \mvTr c4.\fE^\tutti c16 c d8 e r4
+    c4. c8 d e r4
+    r c d g,
+    c r r2
+    R1*6 %10
+    r2 \mvTr g'4.\fE^\tutti h16 g
+    fis8 g r8. g16 g4. h16 g
+    fis8 g r4 r2
+    g8. g16 g4 r8. as16 as8 f16 f
+    f8 d h\p c as2 %15
+    g4 r r r8 \mvTr d''\pE^\solo
+    d4~ d16 h a([ g)] a8 h c8. c16
+    h4 d8 h g4 a8.([ h32 c)]
+    h16([ a)] g8 r4 r2
+    r4 r8 a g4 f! %20
+    e16[ f] g4 a8 g4 f
+    e8.[ d32 c] d4 c r
+    R1 \noBreak
+    R\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoQuam \newSpacingSection
+      R1*12 %36
+    \mvTr g'1\fE^\tuttiE
+    a2 h
+    e, fis
+    g4 a2 g8([ f)] %40
+    e2 a~
+    a g~
+    g4 f8([ e)] d4 g8 f
+    e4 d c d8[ e]
+    f1 %45
+    e2 r
+    R1*3
+    d1 %50
+    e2 f
+    h, cis
+    d4 d2 e8([ f)]
+    g2 g4 f
+    e2. f8 e %55
+    d1
+    c2 r
+    R1*4 %61
+    c1
+    d2 e
+    a, h
+    c4 c2 d8([ e)] %65
+    f2 d4 d
+    g2 c4 c
+    g1 \noBreak
+    c,\fermata \bar "||"
+    \key f \major \time 3/4 \tempoHostias \newSpacingSection
+      R2.*29 %98
+    r4 r8 \mvTr c'\pE^\solo c a
+    fis2~ fis8. fis16 %100
+    g2 r8 b
+    a d, r d c' b16 a
+    b8.([ a16)] g4 r8 g
+    g8.([ c,16)] c8 b' b a16 g
+    a8.([ g16)] f4 r8 f %105
+    e8.([ g16)] g4 r8 e
+    f8.([ a16)] a4 r8 f
+    e8.([ g16)] g4 r8 g
+    f2.~
+    f %110
+    e8 f16([ g)] f4( e)
+    f r r
+    R2.
+    R\fermata \markQuamDaCapo \bar "||" %114 finis
+  }
+}
+
+OffertoriumBassoLyrics = \lyricmode {
+  Do -- mi -- ne Ie -- su,
+  Ie -- su Chri -- ste,
+  Rex glo -- ri --
+  ae.
+
+  Li -- be -- ra %11
+  e -- as de o -- re le --
+  o -- nis,
+  tar -- ta -- rus, ne ca -- dant, ne
+  ca -- dant in ob -- scu -- %15
+  rum. Sed
+  si -- gni -- fer san -- ctus Mi -- cha --
+  el re -- prae -- sen -- tet __
+  e -- as
+  in lu -- cem %20
+  san -- _ _ _ _
+  _ _ ctam.
+
+  Quam %37
+  o -- lim
+  A -- bra --
+  hae pro -- mi -- %40
+  si -- _
+  sti, __
+  et __ se -- mi -- ni
+  e -- _ _ _
+  _ %45
+  ius,
+
+  quam %50
+  o -- lim
+  A -- bra --
+  hae pro -- mi --
+  si -- sti, et
+  se -- mi -- ni %55
+  e --
+  ius,
+
+  quam %62
+  o -- lim
+  A -- bra --
+  hae pro -- mi -- %65
+  si -- sti, et
+  se -- mi -- ni
+  e --
+  ius.
+
+  Fac e -- as, %99
+  Do -- mi -- %100
+  ne, de
+  mor -- te trans -- i -- re ad
+  vi -- tam, de
+  mor -- te trans -- i -- re ad
+  vi -- tam, de %105
+  mor -- te trans --
+  i -- re, trans --
+  i -- re de
+  mor --
+  %110
+  te ad __ vi --
+  tam. %112 finis
+}
