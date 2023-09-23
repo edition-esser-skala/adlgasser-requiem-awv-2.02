@@ -262,3 +262,28 @@ SanctusTromboneII = {
     e2 r4\fermata \bar "|." %34 finis
   }
 }
+
+BenedictusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key a \minor \time 4/4 \tempoBenedictus
+    R1*26 \noBreak %26
+    R1\fermata \bar "||"
+    \key c \major \time 3/4 \tempoOsanna
+      r8 g\f g g g g
+    c2.~
+    c8 h16 a h8 c a h %30
+    c4 r r
+    R2.*2
+    r4 r e~
+    e8 f e4( d) %35
+    c2 c4
+    d g, c8 c
+    d4 g, c8 c
+    d4 g, r
+    r c f %40
+    d4. d8 c4
+    a8 f' e4( d)
+    e2 r4\fermata \bar "|." %43 finis
+  }
+}

@@ -27,6 +27,8 @@ tempoOffertorium = \tempoMarkup "Andante"
   tempoHostias = \tempoMarkup "Versus · Moderato"
 tempoSanctus = \tempoMarkup "Adagio"
   tempoPleni = \tempoMarkup "Allegro"
+tempoBenedictus = \tempoMarkup "Andantino"
+  tempoOsanna = \tempoMarkup "Allegro"
 
 
 \include "notes/clno1.ly"

@@ -471,3 +471,51 @@ SanctusViolinoII = {
     c2 r4\fermata \bar "|." %34 finis
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoBenedictus
+    r8 c'4\p a8 r d,4 f8
+    e-! r c-! r f-! r e-! r
+    r a~\fp \tuplet 3/2 8 { a16[ c h] a h c } h8-! h~\fp \tuplet 3/2 8 { h16[ d c] h c d }
+    c h a8 a, r r d\f e f
+    r d e f e4 r16 d c h %5
+    a8 a4 gis8 a e' a4
+    r8 e\p e e r gis gis gis
+    a-! r c,-! r f-! r e-! r
+    r a~\fp \tuplet 3/2 8 { a16[ c h] a h c } h8-! h~\fp \tuplet 3/2 8 { h16[ d c] h c d }
+    c8 c c c c c c c %10
+    h h h h h h h h
+    a4 r16 a g f e4 h
+    c8\f e'4 c8 r f,4 e16 d
+    c8-! r e-! r a-! r h-! r
+    c-! c,~\sf \tuplet 3/2 8 { c16[ e d] c d e } d8-! d~\sf \tuplet 3/2 8 { d16[ f e] d e f } %15
+    e d c8 c\p c r gis' gis gis
+    a-! r c,-! r f-! r e-! r
+    r a~\fp \tuplet 3/2 8 { a16[ c h] a h c } h8-! h~\fp \tuplet 3/2 8 { h16[ d c] h c d }
+    c8 c c c c c c c
+    h h h h h h h h %20
+    a h16 c d c h a gis4 r
+    r8 d e f r d e f
+    e r h'4 a dis,
+    e r r2
+    r8 d\f e f r d e f %25
+    e4 r16 d c h a8 a4 gis8 \noBreak
+    a4 r r2\fermata \bar "||"
+    \key c \major \time 3/4 \tempoOsanna R2.*3 %30
+    r8 c4\f c c8
+    g'2.~
+    g8 f16 e f2~
+    f4 e e'~
+    e8 f e4( d) %35
+    c8 c, e g f4~
+    f e f8 f
+    f4 e f8 f
+    f4 e4. f16 g
+    a4. g8 f4~ %40
+    f8 e d4 c
+    a' g d'
+    c2 r4\fermata \bar "|." %43 finis
+  }
+}

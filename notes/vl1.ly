@@ -463,3 +463,53 @@ SanctusViolinoI = {
     c2 r4\fermata \bar "|." %34 finis
   }
 }
+
+BenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoBenedictus
+    e'2\p gis,
+    a8-! a~\fp \tuplet 3/2 8 { a16[ c h] a h c } h8-! h~\fp \tuplet 3/2 8 { h16[ d c] h c d }
+    c4 a'2 gis4
+    a r8 d,16(\f h) a4( gis8) d'16( h)
+    a4( gis8) d'16( h) a8( gis) r16 f e d %5
+    c8. h32 a h4 a8 e' a4
+    r8 c\p c c r d d d
+    c-! a~\fp \tuplet 3/2 8 { a16 c h a[ h c] } h8-! h~\fp \tuplet 3/2 8 { h16[ d c] h c d }
+    c4 a'2 gis4
+    a8 e e e f f f f %10
+    f f f f e e e e
+    d4 r r2
+    g2\f h,
+    c8-! c~\sf \tuplet 3/2 8 { c16[ e d] c d e } d8-! d~\sf \tuplet 3/2 8 { d16[ f e] d e f }
+    e4 c2 h4 %15
+    c8 e\p e e r d d d
+    c-! a~\fp \tuplet 3/2 8 { a16[ c h] a h c } h8-! h~\fp \tuplet 3/2 8 { h16[ d c] h c d }
+    c4 a'2 gis4
+    a8 e e e f f f f
+    f f f f e e e e %20
+    d d16 e f e d c h4 r8 d16( h)
+    a4( gis8) d'16( h) a4( gis8) d'16( h)
+    gis8 e'4 d8 c4 dis,
+    e r r r8 d'!16(\f h)
+    a4( gis8) d'16( h) a4( gis8) d'16( h) %25
+    a8( gis) r16 f e d c8. h32 a h4 \noBreak
+    a r r2\fermata \bar "||"
+    \key c \major \time 3/4 \tempoOsanna R2. \noBreak
+    r8 g'4\f g g8
+    d'4. a4 g16 f %30
+    e4 r r
+    R2.
+    r4 r d'~
+    d8 h g a16 h c4~
+    c8 d c4( h) %35
+    c16 h a g f e d c a'4~
+    a g a8 a
+    a4 g a8 a
+    a4 g c~
+    c8 h a h16 c d4~ %40
+    d8 c h f' e4
+    d c h
+    c2 r4\fermata \bar "|." %43 finis
+  }
+}

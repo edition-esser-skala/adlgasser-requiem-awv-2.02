@@ -567,10 +567,87 @@ SanctusTenoreLyrics = \lyricmode {
   sis, o --
   san -- na in ex --
   cel -- sis, in ex --
-  cel -- sis, in ex -- %30
-  cel -- sis,
+  cel -- sis, %30
   in ex --
   cel -- sis, in
+  ex -- cel --
+  sis. %34 finis
+}
+
+BenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*6 %6
+    \mvTr e4.\pE^\solo a,8 gis2
+    a4 r8 a h h4 c16([ d)]
+    c8. h16 a4 r8 h h c16 d
+    c2~ c16[ d8 e16] f[ e d c] %10
+    h2~ h16[ c8 d16] e[ d c h]
+    a8[ d16 e] f8[ e16 d] c4 d8. d16
+    c4 r r2
+    R1*2 %15
+    e2 gis,
+    a8.([ h32 a)] a4 r8 h h c16 d
+    c8. h16 a4 r8 h h c16 d
+    c2~ c16[ d8 e16] f[ e d c]
+    h2~ h16[ c8 d16] e[ d c h] %20
+    a[ h8 c16] d[ c h a] gis8. fis16 e8 d'16([ h)]
+    a4 gis8 d'16([ h)] a8. a16 gis8 d'16([ h)]
+    gis8( e'4 d8 c4.) h16 a
+    a4( gis8.) gis16 a4 r
+    R1*2 \noBreak %26
+    R1\fermata \bar "||"
+    \key c \major \time 3/4 \tempoOsanna
+      r8 \mvTr g\fE^\tutti g g g g
+    c2.~
+    c8[ h16 a] h8[ c a h] %30
+    c4 r r
+    R2.*2
+    r4 r e~
+    e8 f e4( d) %35
+    c2 c4
+    d g, c8 c
+    d4 g, c8 c
+    d4 g, r
+    r c f %40
+    d4. d8 c4
+    a8([ f')] e4( d)
+    e2 r4\fermata \bar "|." %43 finis
+  }
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+  Be -- ne -- di -- %7
+  ctus, qui ve -- nit in __
+  no -- mi -- ne, in no -- mi -- ne
+  Do -- _ %10
+  _ _
+  _ _ _ _ mi --
+  ni.
+
+  Be -- ne -- %16
+  di -- ctus, qui ve -- nit in
+  no -- mi -- ne, in no -- mi -- ne
+  Do -- _
+  _ _ %20
+  _ _ _ mi -- ni, qui
+  ve -- nit in __ no -- mi -- ne, in __
+  no -- mi -- ne
+  Do -- mi -- ni.
+
+  O -- san -- na in ex -- %28
+  cel -- _
+  sis,
+
+  in __ %34
+  ex -- cel -- %35
+  sis, o --
+  san -- na in ex --
+  cel -- sis, in ex --
+  cel -- sis,
+  in ex -- %40
+  cel -- sis,
   ex -- cel --
   sis. %34 finis
 }
