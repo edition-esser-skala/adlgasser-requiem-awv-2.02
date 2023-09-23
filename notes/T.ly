@@ -651,3 +651,103 @@ BenedictusTenoreLyrics = \lyricmode {
   ex -- cel --
   sis. %34 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 3/4 \autoBeamOff \tempoAgnus
+    \mvTr g2\fE^\tutti c4
+    d e r8 c
+    d4 e r8 c
+    d4 e8 g,^\critnote h c
+    c4 h r %5
+    \mvTr d2~\pE^\solo d8. e16
+    d4.( c8) h4
+    c4. c8 h4
+    c2 c4
+    h8 c h4( a8.) a16 %10
+    g4 r r
+    R2.*11 %22
+    r4 \mvTr c\fE^\tutti c
+    cis2.
+    e2 r8 e %25
+    e4 e8 e d4
+    a d2
+    e4^\critnote r r
+    \mvTr f2~\pE^\solo f8. g16
+    f4.( e8) d4 %30
+    e4. e8 d4
+    e2.
+    d8.([ e16)] d4( cis)
+    d \mvTr d\fE^\tutti d
+    e f r %35
+    e8. e16 f4 r
+    d e r
+    d8. d16 e8 e e d
+    c d16([ e)] f4. e8
+    e d r4 c8 d %40
+    e e r4 c8 d
+    e4. e8 e4
+    f e d \noBreak
+    c r r\fermata \bar "||"
+    \time 4/4 \tempoRequiem R1*7 %51
+    r2 r8 \mvTr h\fE^\tutti h h
+    c c c f d e r4
+    d8 c r4 h8 c c f
+    e4 d c r %55
+    c2\p c
+    d e4 r
+    c2 c
+    d4. d8 e4 c~\f
+    c8 a d4~ d8 c h8. h16 %60
+    c4 r r2\fermata \bar "|." %61 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta, pec -- ca -- ta
+  mun -- di: %5
+  Do -- na
+  e -- is
+  re -- qui -- em,
+  do -- na
+  e -- is re -- qui -- %10
+  em.
+
+  A -- gnus %23
+  De --
+  i, qui %25
+  tol -- lis pec -- ca --
+  ta mun --
+  di:
+  Do -- na
+  e -- is %30
+  re -- qui -- em
+  sem --
+  pi -- ter --
+  nam. Lux ae --
+  ter -- na %35
+  lu -- ce -- at
+  e -- is,
+  Do -- mi -- ne, cum San -- ctis
+  tu -- is __ in ae --
+  ter -- num, qui -- a %40
+  pi -- us, qui -- a
+  pi -- us, qui --
+  a pi -- us
+  es.
+
+  Cm San -- ctis %52
+  tu -- is in ae -- ter -- num,
+  qui -- a pi -- us, qui -- a
+  pi -- us es, %55
+  qui -- a
+  pi -- us,
+  qui -- a
+  pi -- us es, qui --
+  a, qui -- a pi -- us %60
+  es. %61 finis
+}

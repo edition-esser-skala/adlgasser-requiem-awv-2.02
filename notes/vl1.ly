@@ -513,3 +513,71 @@ BenedictusViolinoI = {
     c2 r4\fermata \bar "|." %43 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAgnus
+    r8 c[\f e g] c e16( c)
+    h4 c8 e16 f g e d c
+    h4 c8 e16 f g e d c
+    h4 c8 c d e
+    e4 d8 g16( d) d8 c %5
+    h4 r r
+    r fis'(\p g8) r
+    r4 fis( g8) r
+    c,-! r r4 r
+    R2. %10
+    r8 g,[\f h d] g \once \slurDashed h16( g)
+    fis4 g8 h16 c d h a g
+    fis4 g8 h16 c d e fis g
+    e8 d16 c h4 a
+    g r cis\p %15
+    d r cis
+    d r8 fis,16 g a8 d16( a)
+    a8 a a a16 h \appoggiatura d c!8^\critnote h16 a
+    g4 r r
+    r8 gis4 a16 h c4 %20
+    r8 d-! r h16 c d8 d
+    c4 h2
+    a8 a a\f a a a
+    b b b b b b
+    cis[ cis cis cis] cis cis16( e) %25
+    e4 a,8 a f'4
+    e8 e d d d d
+    cis4 a8 d16( a) a8 g
+    f4 r r
+    r cis'(\p d8) r %30
+    r4 cis( d8) r
+    g,-! r r4 r
+    R2.
+    r8 d[\f f a] d f16( d)
+    cis4 d8 f16 g a f e d %35
+    cis4 d8 f16 g a f d c
+    h!4 c8 e16 f g e d c
+    h4 c8 c4 h8
+    a h16 c d4. c8
+    c h f'4. f8 %40
+    e16( d c8) f4. f8
+    e4. d8 c4
+    d c h \noBreak
+    c r r\fermata \bar "||"
+    \time 4/4 \tempoRequiem g2\p a \noBreak %45
+    h c8-!\f g~ g16( a) g( a)
+    g2\p a
+    h c8 g-!\f f-! e-!
+    d2\p e
+    fis g8-\parenthesize-!\f d~ d16( e) d( e) %50
+    d2\p e
+    fis g8 g\f g g
+    a a a d h c f4~
+    f8 e d4~ d8 c a' g16 f
+    e4 d c r %55
+    g2\p a
+    h c8-!\f e,~ e16( f) e( f)
+    e2\p f
+    d e4 r
+    r f'~\f f8 e d4 %60
+    c r r2\fermata \bar "|." %61 finis
+  }
+}

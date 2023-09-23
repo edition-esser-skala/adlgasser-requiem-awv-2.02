@@ -273,3 +273,45 @@ BenedictusTromboneIII = {
     c, r4\fermata \bar "|." %43 finis
   }
 }
+
+AgnusTromboneIII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoAgnus
+    c2\f a'4
+    g8 f e4 r8 a
+    g f e4 r8 a
+    g f e e d c
+    g'4 g, r %5
+    R2.*17 %22
+    r4 a'\f a
+    g!2.
+    e2 r8 e %25
+    cis4 cis8 cis d4
+    c b2
+    a4 r r
+    R2.*5 %33
+    r4 d\f b'
+    a f r %35
+    a8. g16 f4 r
+    g e r
+    g8.^\critnote f16 e8 d c! d16 e
+    f4. e8 d e16 f
+    g4 g, a'8 h %40
+    c c, r4 a'8 h
+    c4 c, a'
+    f g4. g8 \noBreak
+    c,4 r r\fermata \bar "||"
+    \time 4/4 \tempoRequiem R1*7 %51
+    r2 r8 g'\f g g
+    g f16 e f8 f f e r4
+    h8 c r4 f8 e f d
+    g4. g8 c,4 r %55
+    c'2\p a
+    f e4 r
+    c'2 a
+    f4. f8 e4 r
+    f4.\f d8 g c g8. g16 %60
+    c,4 r r2\fermata \bar "|." %61 finis
+  }
+}

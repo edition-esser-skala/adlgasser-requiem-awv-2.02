@@ -519,3 +519,71 @@ BenedictusViolinoII = {
     c2 r4\fermata \bar "|." %43 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAgnus
+    r8 c[\f e g] c e16( c)
+    h4 c8 e16 f g e d c
+    h4 c8 e16 f g e d c
+    h4 c8 g h c
+    c4 h8 h4 a8 %5
+    g4 r r
+    r d'(\p h8) r
+    r4 a( h8) r
+    a-! r r4 r
+    R2. %10
+    r8 g,[\f h d] g \once \slurDashed h16( g)
+    fis4 g8 h16 c d h a g
+    fis4 g8 h16 c d e fis g
+    e8 d16 c h4 a
+    g r e\p %15
+    fis r e
+    fis r8 d16 e fis8 fis
+    fis d d fis a d
+    h4 r r
+    r8 e,4 fis16 gis a4 %20
+    r8 h-! r gis16 a h8 h
+    a2 gis4
+    a8 a a\f a a a
+    cis, cis cis cis cis cis
+    e e e e e e %25
+    e[ e e a] a4
+    a8 a4 a8 gis[ gis]
+    a4 r8 f4 e8
+    d4 r r
+    r a'(\p f8) r %30
+    r4 e( f8) r
+    e-! r r4 r
+    R2.
+    r8 d[\f f a] d f16( d)
+    cis4 d8 f16 g a f e d %35
+    cis4 d8 f16 g a f d c
+    h!4 c8 e16 f g e d c
+    h4 c8 e4 d8
+    c d16 e f4. e8
+    e d r h c d %40
+    g,4 r8 h c d
+    g,4. a16 h c4
+    f e d \noBreak
+    c r r\fermata \bar "||"
+    \time 4/4 \tempoRequiem e,2\p f \noBreak %45
+    d e8-!\f e~ e16( f) e( f)
+    e2\p f
+    d e8 e-!\f d-! c-!
+    h2\p c
+    a h8-\parenthesize-!\f h~ h16( c) h( c) %50
+    h2\p c
+    a h8 h'\f h h
+    c c c f d e a,4~
+    a8 g f d' h g r d'
+    c4 h c r %55
+    e,2\p f
+    d e8-\parenthesize-!\f g~ g16( a) g( a)
+    g2\p a
+    h c4 c~\f
+    c8 a d4~ d8 c h4 %60
+    c r r2\fermata \bar "|." %61 finis
+  }
+}

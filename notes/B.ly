@@ -625,3 +625,95 @@ BenedictusBassoLyrics = \lyricmode {
   _ _
   sis. %43 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \autoBeamOff \tempoAgnus
+    \mvTr c2\fE^\tutti a'4
+    g8([ f)] e4 r8 a
+    g([ f)] e4 r8 a
+    g([ f)] e e d c
+    g'4 g, r %5
+    \mvTr h'2~\pE^\solo h8. c16
+    h4.( a8) g4
+    a4. a8 g4
+    a2 a4
+    g8 a g4( fis8.) fis16 %10
+    g4 r r
+    R2.*11 %22
+    r4 \mvTr a\fE^\tutti a
+    g!2.
+    e2 r8 e %25
+    cis4 cis8 cis d4
+    c b2
+    a4 r r
+    R2.*5 %33
+    r4 \once \override TextScript.X-offset = #4 d\fE^\tutti b'
+    a f r %35
+    a8. g16 f4 r
+    g e r
+    g8.^\critnote f16 e8 d c! d16([ e)]
+    f4. e8 d e16([ f)]
+    g4 g, a'8 h %40
+    c c, r4 a'8 h
+    c4 c, a'
+    f g4. g8 \noBreak
+    c,4 r r\fermata \bar "||"
+    \time 4/4 \tempoRequiem R1*7 %51
+    r2 r8 \mvTr g'\fE^\tutti g g
+    g f!16([ e)] f8 f f e r4
+    h8 c r4 f8 e f d
+    g4. g8 c,4 r %55
+    c'2\p a
+    f e4 r
+    c'2 a
+    f4. f8 e4 r
+    f4.\f d8 g c g8. g16 %60
+    c,4 r r2\fermata \bar "|." %61 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta, pec -- ca -- ta
+  mun -- di: %5
+  Do -- na
+  e -- is
+  re -- qui -- em,
+  do -- na
+  e -- is re -- qui -- %10
+  em.
+
+  A -- gnus %23
+  De --
+  i, qui %25
+  tol -- lis pec -- ca --
+  ta mun --
+  di:
+
+  Lux ae -- %34
+  ter -- na %35
+  lu -- ce -- at
+  e -- is,
+  Do -- mi -- ne, cum San -- ctis
+  tu -- is in ae --
+  ter -- num, qui -- a %40
+  pi -- us, qui -- a
+  pi -- us, qui --
+  a pi -- us
+  es.
+
+  Cm San -- ctis %52
+  tu -- is in ae -- ter -- num,
+  qui -- a pi -- us, qui -- a
+  pi -- us es, %55
+  qui -- a
+  pi -- us,
+  qui -- a
+  pi -- us es, qui --
+  a, qui -- a pi -- us %60
+  es. %61 finis
+}

@@ -287,3 +287,45 @@ BenedictusTromboneII = {
     e2 r4\fermata \bar "|." %43 finis
   }
 }
+
+AgnusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 3/4 \tempoAgnus
+    g2\f c4
+    d e r8 c
+    d4 e r8 c
+    d4 e8 g,^\critnote h c
+    c4 h r %5
+    R2.*17 %22
+    r4 c\f c
+    cis2.
+    e2 r8 e %25
+    e4 e8 e d4
+    a d2
+    e4^\critnote r r
+    R2.*5 %33
+    r4 d\f d
+    e f r %35
+    e8. e16 f4 r
+    d e r
+    d8. d16 e8 e e d
+    c d16 e f4. e8
+    e d r4 c8 d %40
+    e e r4 c8 d
+    e4. e8 e4
+    f e d \noBreak
+    c r r\fermata \bar "||"
+    \time 4/4 \tempoRequiem R1*7 %51
+    r2 r8 h\f h h
+    c c c f d e r4
+    d8 c r4 h8 c c f
+    e4 d c r %55
+    c2\p c
+    d e4 r
+    c2 c
+    d4. d8 e4 c~\f
+    c8 a d4~ d8 c h8. h16 %60
+    c4 r r2\fermata \bar "|." %61 finis
+  }
+}

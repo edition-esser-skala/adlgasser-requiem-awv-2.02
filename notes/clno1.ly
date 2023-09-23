@@ -194,3 +194,39 @@ BenedictusClarinoI = {
     c2 r4\fermata \bar "|." %43 finis
   }
 }
+
+AgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAgnus
+    e'2\f e4
+    g g r
+    d e r
+    d \pa e8 e f e
+    e4 \pd d r %5
+    R2.*5 %10
+    g4\fE r r
+    a g \pao r
+    a g \pa r
+    g2 fis4 \pd
+    g r r %15
+    R2.*21 %36
+    d4\fE e r
+    d e r
+    r f4. e8
+    e d r4 r %40
+    e r r
+    e2 e4
+    f e d \noBreak
+    c r r\fermata \bar "||"
+    \time 4/4 \tempoRequiem R1*9 %53
+    f8\f e r4 \pa d8 c a' f \pd
+    e4 d c r %55
+    R1
+    r2 r8 c16\fE c c8 c
+    c4 r r2
+    R1
+    r4 f~\fE f8 e d8. d16 %60
+    c4 r r2\fermata \bar "|." %61 finis
+  }
+}
