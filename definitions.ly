@@ -25,6 +25,8 @@ tempoSequentia = \tempoMarkup "Allegretto"
 tempoOffertorium = \tempoMarkup "Andante"
   tempoQuam = \tempoMarkup "Quam olim · Vivace"
   tempoHostias = \tempoMarkup "Versus · Moderato"
+tempoSanctus = \tempoMarkup "Adagio"
+  tempoPleni = \tempoMarkup "Allegro"
 
 
 \include "notes/clno1.ly"

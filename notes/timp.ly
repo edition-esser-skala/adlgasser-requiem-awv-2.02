@@ -124,3 +124,32 @@ OffertoriumTimpani = {
     R2.\fermata \markQuamDaCapo \bar "||" %114 finis
   }
 }
+
+SanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSanctus
+    R1
+    r8 c16\f c c8 c c4 r
+    g r r2
+    R1*2 \noBreak %5
+    R1\fermata \bar "||"
+    \time 3/4 \tempoPleni R2.*7 %13
+    g4.\fE g8 g4
+    c c r %15
+    R2.*2
+    g4 g c
+    g g r
+    R2.*5 %24
+    r4 r c %25
+    r g g
+    c2 r4
+    r c r
+    r c r
+    r c r %30
+    R2.
+    g4. g8 c4
+    r g g
+    c2 r4\fermata \bar "|." %34 finis
+  }
+}

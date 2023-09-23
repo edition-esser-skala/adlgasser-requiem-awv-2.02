@@ -422,3 +422,44 @@ OffertoriumViolinoI = {
     f4 r r\fermata \markQuamDaCapo \bar "||" %114 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    e8\f e e e fis fis fis fis
+    g g g g r16 fis'-! a-! g-! fis-! e-! d-! c-!
+    h-! d-! g-! fis-! e-! d-! c-! h-! a8\p a a4
+    r2 r16 g' d h g d h g
+    a8 f''!-! r f-! r e-! r e-! \noBreak %5
+    r f16-! e-! d-! c-! h-! a-! gis4 r\fermata \bar "||"
+    \time 3/4 \tempoPleni e'8\f e h h c c \noBreak
+    c c h h c c
+    c c h h c c
+    c4 h16 e, fis gis a h c d %10
+    e( d e f) e8 d c h
+    c4. c8 c4
+    d16( c d e) d8 c h a
+    h4. h8 h4
+    R2. %15
+    c16( h c d) c8 h a g
+    a16( g a h) a4. h16 c
+    d4. d8 c4
+    c h8 g4 g8
+    d'2.~ %20
+    d8 c16 h c8 a4 g16 f
+    e4 r r
+    R2.
+    r4 r d'~
+    d8 h g a16 h c4~ %25
+    c8 d c4( h)
+    c16 h a g f e d c a'4~
+    a g a8 a
+    a4 g a8 a
+    a4 g c~ %30
+    c8 h a h16 c d4~
+    d8 c h f' e4
+    d c h
+    c2 r4\fermata \bar "|." %34 finis
+  }
+}

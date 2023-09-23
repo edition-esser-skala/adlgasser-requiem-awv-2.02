@@ -580,13 +580,75 @@ OffertoriumSopranoLyrics = \lyricmode {
   tam. %112 finis
 }
 
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr c'1\fE^\tutti
+    c2 r
+    R1*3 \noBreak %5
+    R1\fermata \bar "||"
+    \time 3/4 \tempoPleni \mvTr e4\fE^\tutti h c \noBreak
+    c h c
+    c h c
+    c h r %10
+    e16[ d e f] e8[ d c h]
+    c4. c8 c4
+    d16[ c d e] d8[ c h a]
+    h4. h8 h4
+    R2.*4 %18
+    r8 g g g g g
+    d'2.~ %20
+    d8[ c16 h] c8 a4 g16[ f]
+    e4 r r
+    R2.
+    r4 r d'~
+    d8 h g[ a16 h] c4~ %25
+    c8[ d] c4 h
+    c2 a4
+    a g a8 a
+    a4 g a8 a
+    a4 g c~ %30
+    c8 h a[ h16 c] d4~
+    d8[ c h f'] e4
+    d c h
+    c2 r4\fermata \bar "|." %34 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San --
+  ctus.
+
+  Ple -- ni sunt %7
+  coe -- li et
+  ter -- ra, et
+  ter -- ra %10
+  glo -- _
+  _ ri -- a,
+  glo -- _
+  _ ri -- a.
+
+  O -- san -- na in ex -- %19
+  cel -- %20
+  _ _ _
+  sis,
+
+  in __
+  ex -- cel -- _ %25
+  _ _
+  sis, o --
+  san -- na in ex --
+  cel -- sis, in ex --
+  cel -- sis, in __ %30
+  ex -- cel -- _
+  _
+  _ _ _
+  sis. %34 finis
+}
 
 
-% # Sanctus
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
 
 
 % # Benedictus
@@ -612,19 +674,3 @@ OffertoriumSopranoLyrics = \lyricmode {
 % Re -- qui -- em ae -- ter -- nam do -- na e -- is, Do -- mi -- ne:
 % Et lux per -- pe -- tu -- a lu -- ce -- at e -- is.
 % Cum San -- ctis tu -- is in ae -- ter -- num, qui -- a pi -- us es.
-
-
-% # Responsorium
-
-% Li -- be -- ra me, Do -- mi -- ne, de mor -- te ae -- ter -- na,
-% in di -- e il -- la tre -- men -- da,
-% quan -- do coe -- li mo -- ven -- di sunt et ter -- ra,
-% dum ve -- ne -- ris iu -- di -- ca -- re sae -- cu -- lum per i -- gnem.
-% Tre -- mens fa -- ctus sum e -- go, et ti -- me -- o,
-% dum dis -- cus -- si -- o ve -- ne -- rit, at -- que ven -- tu -- ra i -- ra.
-% Di -- es il -- la, di -- es i -- rae,
-% ca -- la -- mi -- ta -- tis et mi -- se -- ri -- ae,
-% di -- es ma -- gna et a -- ma -- ra val -- de.
-% Dum ve -- ne -- ris iu -- di -- ca -- re sae -- cu -- lum per i -- gnem.
-% Re -- qui -- em ae -- ter -- nam do -- na e -- is, Do -- mi -- ne:
-% Et lux per -- pe -- tu -- a lu -- ce -- at e -- is.

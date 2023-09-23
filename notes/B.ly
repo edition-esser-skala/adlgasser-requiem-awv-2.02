@@ -519,3 +519,72 @@ OffertoriumBassoLyrics = \lyricmode {
   te ad __ vi --
   tam. %112 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    r2 \mvTr d\fE^\tutti
+    e r
+    R1*3 \noBreak %5
+    R1\fermata \bar "||"
+    \time 3/4 \tempoPleni \mvTr e4\fE^\tutti e a \noBreak
+    dis, e e
+    dis e e
+    dis e r %10
+    R2.
+    a4. a,8 a4
+    R2.
+    g'!4. g,8 g4
+    c'16[ h c d] c8[ h a g] %15
+    a16[ g a h] a8[ g f e]
+    f16[ e f g] f8[ e d c]
+    h4. h8 c4
+    g' g, r
+    R2.*3 %22
+    r8 c c c c c
+    a'4. f8 d[ e16 f]
+    g4. e8 c[ d16 e] %25
+    f8[ d] g2
+    c, f4
+    h, c c8 c
+    h4 c c8 c
+    h4 c c8 d16([ e)] %30
+    f4. e8 d[ e16 f]
+    g4. a16[ h] c4
+    f, g2
+    c, r4\fermata \bar "|." %34 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San --
+  ctus.
+
+  Ple -- ni sunt %7
+  coe -- li et
+  ter -- ra, et
+  ter -- ra %10
+
+  glo -- ri -- a,
+
+  glo -- ri -- a,
+  glo -- _ %15
+  _ _
+  _ _
+  _ ri -- a
+  tu -- a.
+
+  O -- san -- na in ex -- %23
+  cel -- _ _
+  _ _ _ %25
+  _ _
+  sis, o --
+  san -- na in ex --
+  cel -- sis, in ex --
+  cel -- sis, in ex -- %30
+  cel -- _ _
+  _ _ _
+  _ _
+  sis. %34 finis
+}

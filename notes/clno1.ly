@@ -139,3 +139,38 @@ OffertoriumClarinoI = {
     R2.\fermata \markQuamDaCapo \bar "||" %114 finis
   }
 }
+
+SanctusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    R1
+    r8 g''16\f g g8 g a4 r
+    g r r2
+    R1*2 \noBreak %5
+    R1\fermata \bar "||"
+    \time 3/4 \tempoPleni e8\f e16 e e8 e e4 \noBreak
+    r e8 e16 e e4
+    r e8 e16 e e4
+    R2.*2 %11
+    a4. a8 a4
+    R2.
+    d,4. d8 d4
+    e2.~ %15
+    e
+    f~
+    f2 e4
+    e d r
+    R2.*5 %24
+    r4 r e~ %25
+    e8 f e4 d
+    c2 a'4~
+    a g a~
+    a g a~
+    a g r %30
+    R2.
+    d4. d8 e4
+    f e d
+    c2 r4\fermata \bar "|." %34 finis
+  }
+}
