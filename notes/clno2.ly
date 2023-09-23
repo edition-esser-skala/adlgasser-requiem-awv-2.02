@@ -54,3 +54,44 @@ KyrieClarinoII = {
     g g16 g g8 g e4 r\fermata \bar "|." %39 finis
   }
 }
+
+SequentiaClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSequentia
+    r8 c'16\f c c4 c2
+    c,4 r r c'8 c16 c
+    c2 c,4 r
+    r c'8 c \appoggiatura g'4 f2_\critnote
+    e4 r8 e d4 d8 d16 d %5
+    d4 r c2
+    g4 r8 d'16 d d4 d8 d
+    d4 r r2
+    R1*5 %13
+    r2 r4 e,8\fE e16 e
+    e2 e4 r %15
+    R1*2
+    r2 r4 c'8 c16 c
+    c2 c,4 r
+    R1*2 %21
+    r4 d'8. d16 c8 r d8. d16
+    c8 r d8. d16 c2 \noBreak
+    r4 g8 g16 g e4 r\fermata \bar "||"
+    \time 3/4 \tempoLiber \newSpacingSection
+      R2.*158 \noBreak %182
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoLacrymosa \newSpacingSection
+      c4\p r c r \noBreak
+    r2 g4\f r %185
+    g r c r
+    g' r r8 g4 g8
+    c,4 r r2
+    R1*2 %190
+    r4 c8\f c g' g r4
+    r8 g16 g g8 g g4 r
+    R1*7 %199
+    R1\fermata %200
+    g4 r r8 c, c c
+    g' g16 g g8 g g4 r\fermata \bar "|." %202 finis
+  }
+}

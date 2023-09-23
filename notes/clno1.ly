@@ -54,3 +54,44 @@ KyrieClarinoI = {
     d d16 d d8 d c4 r\fermata \bar "|." %39 finis
   }
 }
+
+SequentiaClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSequentia
+    r8 \pa c'16\f c c4 c2
+    c,4 \pd r r \pa c'8 c16 c
+    c2 c,4 \pd r
+    r \pa e'8 f \appoggiatura e4 d2^\critnote
+    c4 e8 a \pd fis4 fis8 fis16 fis %5
+    g4 r \pa r8 g a a
+    g4 g~ g8 a fis4 \pd
+    g r r2
+    R1*5 %13
+    r2 r4 e8\fE e16 e
+    e2 \pao e,4 r %15
+    R1*2
+    r2 r4 \pa c'8 c16 c
+    c2 c,4 \pd r
+    R1*2 %21
+    r4 f'8. f16 e8 r f8. f16
+    e8 r f8. f16 \pa e4. f8 \noBreak
+    d2 \pd c4 r\fermata \bar "||"
+    \time 3/4 \tempoLiber \newSpacingSection
+      R2.*158 \noBreak %182
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoLacrymosa \newSpacingSection
+      \pao c,4\p r \pao c r \noBreak
+    r2 \pao g4\f r %185
+    \pao g r \pao c r
+    c' r r8 \pa g4 g8
+    c,4 \pd r r2
+    R1*2 %190
+    r4 c'8\f c \pa g g \pd r4
+    r8 d'16 d d8 d c4 r
+    R1*7 %199
+    R1\fermata %200
+    c4 r r8 c c c
+    \pa g d'16 d \pd d8 d c4 r\fermata \bar "|." %202 finis
+  }
+}

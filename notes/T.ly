@@ -135,3 +135,242 @@ KyrieTenoreLyrics = \lyricmode {
   Ky -- ri -- e __ e --
   lei -- son. %39 finis
 }
+
+SequentiaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoSequentia
+    R1*3
+    r4 \mvTr g8\f^\tutti a^\critnote a4( g)
+    g c8 c a a a a %5
+    g16([ a)] h8 r4 e d
+    g,8 a h h a2
+    h4 r r2
+    R1*5 %13
+    r2 r4 \mvTr e8\fE^\tutti e
+    e2 e,8 h'4 c8 %15
+    c h r4 r h8 h
+    c4 c a4. a8
+    h h h c16([ d)] g,8^\critnote g r4
+    r2 r8 g4 a8
+    a g r4 r8 d'4 h8 %20
+    g e' e c a a r4
+    r h8. h16 c([ d)] e8 h8. h16
+    c([ d)] e8 h8. h16 c8 d e f \noBreak
+    d2 e4 r\fermata \bar "||"
+    \key f \major \time 3/4 \tempoLiber \newSpacingSection
+      R2.*8 %32
+    r4 \mvTr c4.\pE^\solo f8
+    e([ d)] c4 r
+    r c4. f8 %35
+    e([ d)] c4 r
+    r8 d4 b16([ a)] g8 a16([ b)]
+    c4. a16([ g)] f8 g16([ a)]
+    b2.
+    a4 r8 a4 d8 %40
+    h2.
+    c4 r8 b4 b8
+    a g16([ f)] g2
+    f4 \mvTr a\f^\tutti a
+    e'4. e8 e e %45
+    f2.~
+    f
+    e4 r r
+    R2.*2 %50
+    r4 \mvTr f\fE^\tutti f
+    f2 g4
+    g8 f e2
+    d4 r r
+    R2.*13 %67
+    r4 \mvDl e\fE^\tuttiE e
+    d4. d8 d d
+    c2. %70
+    cis\fermata
+    r4 d f
+    e2.
+    a,4^\critnote r r
+    r d d %75
+    g, g r
+    c2 d4
+    h4. h8 c4~
+    c8 d c4( h)
+    c r r %80
+    R2.*31 %111
+    \mvTr c2\fE^\tutti c4
+    h8 h c4 h
+    c2.
+    h4 g g %115
+    g'4. f8 es d
+    es([ d)] c4 r
+    r f d
+    h4. h8 c4~
+    c8 c c4( h) %120
+    c r r
+    R2.*15 %136
+    r4 \mvTr b\fE^\tutti b
+    c c r
+    r b b
+    c c r %140
+    r g c
+    f,2 b4
+    r es, c'
+    d8([ c)] b4 r
+    R2. %145
+    r4 a a
+    b f r
+    r a a
+    b f r
+    R2. %150
+    es'4. es8 es4
+    R2.
+    c4. c8 c4
+    r r r8 d
+    d d d2 %155
+    d4 r r
+    R2.*9 %165
+    r4 \mvTr c\pE^\solo f
+    e8([ d)] c4 r
+    r c f
+    e8([ d)] c4 r
+    r c4. f8 %170
+    f4.( h,8) h4
+    r c4. f8
+    f4.( h,8) h4
+    r8 c4 d( c16[ b)]
+    a8 c4 d c16([ b)] %175
+    a2.~
+    a8 b a4( g)
+    f r r
+    R2.*4 \noBreak %182
+    R2.\fermata \bar "||"
+    \key c \minor \time 4/4 \tempoLacrymosa \newSpacingSection
+      R1*7 %190
+    r4 \mvTr c'8\fE^\tutti es es16([ d)] d4.
+    h4. d8 d16([ c)] c8 r4
+    r as8 g g c f c
+    des2 g,4 r
+    r2 f' %195
+    f,8 a4 a8 b16([ c)] d!8 r4
+    r8 f4 f8 es b r4
+    r2 r4 c~
+    c8 c c f d4. d8
+    d2\fermata r %200
+    r c~
+    c4 h c r\fermata \bar "|." %202 finis
+  }
+}
+
+SequentiaTenoreLyrics = \lyricmode {
+  Di -- es il -- %4
+  la sol -- vet sae -- clum in fa -- %5
+  vil -- la, te -- ste
+  Da -- vid cum Si -- byl --
+  la.
+
+  Tu -- ba %14
+  mi -- rum spar -- gens %15
+  so -- num per se --
+  pul -- cra, co -- get
+  o -- mnes an -- te __ thro -- num.
+  Et na --
+  tu -- ra, cum re -- %20
+  sur -- get cre -- a -- tu -- ra,
+  iu -- di -- can -- ti re -- spon --
+  su -- ra, iu -- di -- can -- ti re -- spon --
+  su -- ra.
+
+  Li -- ber %33
+  scri -- ptus
+  pro -- fe -- %35
+  re -- tur,
+  in quo to -- tum
+  con -- ti -- ne -- tur,
+  un --
+  de, un -- de %40
+  mun --
+  dus, mun -- dus
+  iu -- di -- ce --
+  tur. Iu -- dex
+  er -- go cum se -- %45
+  de --
+
+  bit:
+
+  Nil in -- %51
+  ul -- tum
+  re -- ma -- ne --
+  bit.
+
+  Rex tre -- %68
+  men -- dae ma -- ie --
+  sta -- %70
+  tis,
+  qui sal --
+  van --
+  dos
+  sal -- vas %75
+  gra -- tis:
+  Sal -- va
+  me, fons pi --
+  e -- ta --
+  tis. %80
+
+  In -- ge -- %112
+  mi -- sco, tam -- quam
+  re --
+  us: Cul -- pa %115
+  ru -- bet vul -- tus
+  me -- us:
+  Sup -- pli --
+  can -- ti par --
+  ce De -- %120
+  us.
+
+  Pre -- ces %137
+  me -- ae
+  non sunt
+  di -- gnae: %140
+  Sed tu
+  bo -- nus
+  fac be --
+  ni -- gne.
+  %145
+  Lo -- cum
+  prae -- sta,
+  me se --
+  que -- stra,
+  %150
+  sta -- tu -- ens,
+
+  sta -- tu -- ens
+  in
+  par -- te dex -- %155
+  tra.
+
+  O -- ro %166
+  sup -- plex
+  et ac --
+  cli -- nis,
+  cor con -- %170
+  tri -- tum
+  qua -- si
+  ci -- nis:
+  Ge -- re __
+  cu -- ram me -- i, __ %175
+  me --
+  i fi --
+  nis.
+
+  Qua re -- sur -- get %191
+  ex fa -- vil -- la
+  iu -- di -- can -- dus ho -- mo
+  re -- us:
+  Par -- %195
+  ce, pi -- e Ie -- su,
+  par -- ce, par -- ce,
+  do --
+  na e -- is re -- qui --
+  em, %200
+  a --
+  _ men. %202 finis
+}

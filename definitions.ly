@@ -15,6 +15,9 @@ markRequiemDaCapo = {
 tempoIntroitus = \tempoMarkup "Adagio"
   tempoTeDecet = \tempoMarkup "Andantino"
 tempoKyrie = \tempoMarkup "Allegro"
+tempoSequentia = \tempoMarkup "Allegretto"
+  tempoLiber = \tempoMarkup "Andante"
+  tempoLacrymosa = \tempoMarkup "Andante"
 
 
 \include "notes/clno1.ly"

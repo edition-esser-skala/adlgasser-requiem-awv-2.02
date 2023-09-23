@@ -64,3 +64,102 @@ KyrieTromboneII = {
     d2 e4 r\fermata \bar "|." %39 finis
   }
 }
+
+SequentiaTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoSequentia
+    R1*3
+    r4 g8\f a-\critnote a4( g)
+    g c8 c a a a a %5
+    g16 a h8 r4 e d
+    g,8 a h h a2
+    h4 r r2
+    R1*5 %13
+    r2 r4 e8\fE e
+    e2 e,8 h'4 c8 %15
+    c h r4 r h8 h
+    c4 c a4. a8
+    h h h c16 d g,8 g r4
+    r2 r8 g4 a8
+    a g r4 r8 d'4 h8 %20
+    g e' e c a a r4
+    r h8. h16 c d e8 h8. h16
+    c d e8 h8. h16 c8 d e f \noBreak
+    d2 e4 r\fermata \bar "||"
+    \key f \major \time 3/4 \tempoLiber \newSpacingSection
+      R2.*19 %43
+    r4 a,\f a
+    e'4. e8 e e %45
+    f2.~
+    f
+    e4 r r
+    R2.*2 %50
+    r4 f\fE f
+    f2 g4
+    g8 f e2
+    d4 r r
+    R2.*13 %67
+    r4 e\f e
+    d4. d8 d d
+    c2. %70
+    cis\fermata
+    r4 d f
+    e2.
+    a,4^\critnote r r
+    r d d %75
+    g, g r
+    c2 d4
+    h4. h8 c4~
+    c8 d c4 h
+    c r r %80
+    R2.*31 %111
+    c2.\f
+    h8 h c4 h
+    c2.
+    h4 g g %115
+    g'4. f8 es d
+    es d c4 r
+    r f d
+    h4. h8 c4~
+    c8 c c4( h) %120
+    c r r
+    R2.*15 %136
+    r4 b\f b
+    c c r
+    r b b
+    c c r %140
+    r g c^\critnote
+    f,2 b4
+    r es, c'
+    d8 c b4 r
+    R2. %145
+    r4 a a
+    b f r
+    r a a
+    b f r
+    R2. %150
+    es'4. es8 es4
+    R2.
+    c4. c8 c4
+    r r r8 d
+    d d d2 %155
+    d4 r r
+    R2.*26 \noBreak %182
+    R2.\fermata \bar "||"
+    \key c \minor \time 4/4 \tempoLacrymosa \newSpacingSection
+      R1*7 %190
+    r4 c8\f es es16( d) d4.
+    h4. d8 d16( c) c8 r4
+    r as8 g g c f c
+    des2 g,4 r
+    r2 f' %195
+    f,8 a4 a8 b16 c d!8 r4
+    r8 f4 f8 es b r4
+    r2 r4 c~
+    c8 c c f d4. d8
+    d2\fermata r %200
+    r c~
+    c4 h c r\fermata \bar "|." %202 finis
+  }
+}

@@ -103,3 +103,209 @@ KyrieViolinoI = {
     c4 h c r\fermata \bar "|." %39 finis
   }
 }
+
+SequentiaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSequentia
+    r2 c'16(\f g) g( a) a( g) g( f)
+    e4 r r2
+    c'16( g) g( a) a( g) g( f) e4 r
+    r8 e'4 f8 \appoggiatura e4 d2
+    c8 e4 c8 r d,4 fis8 %5
+    d'4~ d16 h a g c4. d16 c
+    h8 a g4~ g8 a fis4
+    g r c4:32\fp^\critnote c4:
+    h r c:\fp c:
+    h r r2 %10
+    r8 g h d e8. d16 cis h a! g
+    fis4 r r2
+    R1*2
+    e'16(\f h) h( c) c( h) h( a) gis4 r %15
+    r h8 h e8. e16 e8 d!
+    c16( h a8) a a d8 d d8. c16
+    h( a g8) r4 r2
+    c16( g) g( a) a( g) g( f) e4 r
+    r c'4. h4 d8~ %20
+    d c4 e d c8
+    h16( a g8) f'8. f16 e( d c8) f8. f16
+    e( d c8) f8. f16 e8 d c4~ \noBreak
+    c8 d h4 c r\fermata \bar "||"
+    \key f \major \time 3/4 \tempoLiber \newSpacingSection
+      c2\f f4 \noBreak %25
+    \appoggiatura f16 e8 d16 c c4 r
+    c2~ c8 f
+    \appoggiatura f16 e8 d16 c c4 r
+    r8 d4 e16 f g a b h,
+    c8 c4 d16 e f g a a, %30
+    b!8 b4 c16 d e f g b,
+    a8 g16 f g2
+    f4 c'4.\p f8
+    \appoggiatura f4 e2 r4
+    r c4. f8 %35
+    \appoggiatura f4 e2 r4
+    r8 d4 e16 f g4
+    r8 c,4 d16 e f4
+    r8 b,4 c16 d e f g b,
+    a8 a'4 f d8 %40
+    h h h h h h
+    c g'4 b,16 a b8 b
+    a4 g2
+    f4 c'\f c
+    cis4. cis8 cis cis %45
+    d2.
+    d8 d d d d d
+    cis4 r r
+    r8 b!\p a4 r
+    r8 b a4 a8\f a %50
+    f'4. e8 d cis
+    d2.~
+    d2 cis4
+    d8 a4 h16 cis d e f a,
+    g8 g4 a16 h cis d e g, %55
+    f8 e16 d e2
+    d4 a'4.\p d8
+    \appoggiatura d4 cis2 r4
+    r a d
+    \appoggiatura d cis2 r4 %60
+    r8 b!4 c16 d e f g b,
+    a8 a4 h16 cis d e f a,
+    g8 g4 a16 h cis d e g,
+    f4 a d
+    h8 h16 c d8 d d16 h g f %65
+    e4 c'2
+    a8 g16 f e4 d
+    c g''\f g
+    gis4. gis8 gis gis
+    a a a a a a %70
+    g!2.\fermata
+    a,2 d4~
+    d cis2
+    d4 g, c
+    c h2 %75
+    c g'4~
+    g8 e c4 f~
+    f8 d h4 e~
+    e8 f e4 d
+    c8 g4 a16 h c d e g, %80
+    f8 f4 g16 a h c d f,
+    e4 g\p c
+    \appoggiatura c h2 r4
+    r g c
+    \appoggiatura c h2 r4 %85
+    r8 a4 h16 c d e f8
+    r g,4 a16 h c d e8
+    r f,4 g16 a h c d f,
+    e4 r r
+    R2. %90
+    h'4.\fp d8 a g16 f
+    e8 f16 g a h c d e4
+    h4.\fp d8 a g16 f
+    e4 r r
+    r c'4. b!8 %95
+    a16 g f g f4 r
+    r d'4. c8
+    h16 a g a g4 r
+    r e'4. d8
+    c8 d c4 h %100
+    a e'16( c8.) h16( a8.)
+    h4~ h16 e, f e d'8 d
+    c16( h a8) r16 g! a h c d e f
+    d4~ d16 g, a g f'8 f
+    e( d) c4 r %105
+    R2.*3
+    r4 c\f c
+    d2. %110
+    e8 e e e e e
+    f2.~
+    f4 e d
+    e8 e e e e e
+    d4 r r %115
+    r h h
+    c4. c4 d16 es
+    f8 f,4 as f'8
+    d4. d8 es4
+    d d2 %120
+    c4 g4. c8
+    \appoggiatura c16 h8 a!16 g g4 g'~
+    g8 f16 g as g f es d c h c
+    h c d4 as g16 f
+    es8 d16 c d2 %125
+    c4 g'4.\p c8
+    \appoggiatura c16 h8 a!16 g g4 r
+    r g4. c8
+    \appoggiatura c16 h8 a!16 g g4 r
+    r8 as4 b!16 c d es f as, %130
+    g8 g4 a16 h c d es g,
+    f8 f4 g16 a! h c d f,
+    es4 g c
+    a!8 a16 b! c8 c c16 a f es
+    d4 b'2 %135
+    g8 f16 es d4( c)
+    b f'\f b
+    a8 g f4 r
+    r f4. b8
+    a g f4 r %140
+    r8 g4 a16 b c d es es,
+    f8 f4 g16 a b c d d,
+    es8 es4 f16 g a b c es,
+    d4 d' d
+    d c c16( h) c( h) %145
+    c4. es,16 f g8 f16 es
+    es4( d) a'16( b) b( c)
+    c4. es,16 f g8 f16 es
+    es4( d) f16 es d c
+    b4 b'4. b8 %150
+    g4 r r
+    c2 c4
+    a r r
+    d4. d4 c8
+    b a16 g a2 %155
+    g4 d'16(\p b8.) a16( g8.)
+    a4~ a16 d, es d c'8 c
+    b16( a g8) r16 f! g a b c d es
+    c4. b16 a b8 b
+    a4 r r %160
+    R2.*3
+    r8 c4\f d16 e f g a a,
+    b8 b4 c16 d e f g b, %165
+    a4 c\p f
+    \appoggiatura f e2 r4
+    r c f
+    \appoggiatura f e2 r4
+    r f4. \appoggiatura e16 d8 %170
+    \appoggiatura c4 h2.
+    c4 r8 a'4 d,8
+    \appoggiatura c4 h2.
+    c4 r8 d4 c16 b
+    a4 r8 d4 c16 b %175
+    a2.~
+    a8 b a4 g
+    f r r
+    r8 d'4\f e16 f g a b h,
+    c8 c4 d16 e f g a a, %180
+    b!8 b4 c16 d e f g b,
+    a8 g16 f g2 \noBreak
+    f4 r r\fermata \bar "||"
+    \key c \minor \time 4/4 \tempoLacrymosa \newSpacingSection
+      c16(-.\p c-. c-. c-.) c(-. c-. c-. c-.) c4 r \noBreak
+    d16(-. d-. d-. d-.) d(-. d-. d-. d-.) d16.(\f as'32) as4( g8) %185
+    d16.( as'32) as8~ as16 as g f es4 r
+    r16 c'-! h( c) g( as) f( g) es8. d32 c d4\trill
+    c16(-. c-.\p c-. c-.) c(-. c-. c-. c-.) c4 r
+    d16(-. d-. d-. d-.) d(-. d-. d-. d-.) d16.( as'32) as4( g8)
+    d16.( as'32) as8~ as16 as g f es4 r %190
+    g4.\f c8 c16( h) h4.
+    g4. f'8 f16( es) es8 es16-! es-! es-! es-!
+    es es des c des des des des des des c c c c c c
+    c c b! as b8 b c4 r
+    r16 c-! h( c) e,( g) c,-! c-! as'( g f8) r4 %195
+    r16 f'-! e( f) a,( c) f,-! f-! d'!( c b8) r4
+    r16 b'-! a( b) d,( f) b,-! b-! g'( f es8) r4
+    es,16\fp es es es es es es es c'\fp c c c c c c c
+    c\fp c c c c c c c b\fp b b b b b b b
+    as!2\fermata r %200
+    r r16 c-! h( c) g( as) f( g)
+    d8 d d d c4 r\fermata \bar "|." %202 finis
+  }
+}

@@ -44,3 +44,41 @@ KyrieTimpani = {
     g8 g16 g g8 g c4 r\fermata \bar "|." %39 finis
   }
 }
+
+SequentiaTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSequentia
+    r8 c16\f c c4 c2
+    c4 r r c8 c16 c
+    c2 c4 r
+    r c8 c c c g g
+    c4 r r2 %5
+    g4 r r2
+    g4 r r2
+    g4 r r2
+    R1*9 %17
+    r2 r4 c8\fE c16 c
+    c2 c4 r
+    R1*2 %21
+    r4 g8. g16 c8 r g8. g16
+    c8 r g8. g16 c4 r \noBreak
+    g8 g16 g g8 g c4 r\fermata \bar "||"
+    \time 3/4 \tempoLiber \newSpacingSection
+      R2.*158 \noBreak %182
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoLacrymosa \newSpacingSection
+      c4\p r c r \noBreak
+    r2 g4\f r
+    g r c r
+    r2 r8 g4 g8
+    c4 r r2
+    R1*2
+    r4 c8\f c g4 r
+    r8 g16 g g8 g c4 r
+    R1*7 %199
+    R1\fermata %200
+    c4 r r8 c c c
+    g g16 g g8 g c4 r\fermata \bar "|." %202 finis
+  }
+}
