@@ -30,3 +30,27 @@ IntroitusClarinoI = {
     R2.\fermata \markRequiemDaCapo \bar "||" %57 finis
   }
 }
+
+KyrieClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoKyrie
+    R1*6 %6
+    r2 r4 d'8\f d
+    c4 d8 e d4 \pao g,
+    R1
+    r8 d'4 d8 \pa c d e4 %10
+    d2 c4 \pd r
+    R1*6 %17
+    \pa R1
+    e2 \pd d4 d8. d16
+    c4 r r2 %20
+    R1*7 %27
+    e8 e16 e e8 e e4 r
+    R1*7 %35
+    e4. e8 d4 d
+    c r r2
+    e4 d c e8 e
+    d d16 d d8 d c4 r\fermata \bar "|." %39 finis
+  }
+}

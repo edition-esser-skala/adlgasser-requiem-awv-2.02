@@ -74,14 +74,88 @@ IntroitusSopranoLyrics = \lyricmode {
   et. %54 finis
 }
 
-% # Kyrie
+KyrieSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoKyrie
+    R1*4
+    r2 \mvTr c'4.\f^\tutti c8 %5
+    h([ a)] g([ f)] e4 a~
+    a8[ g16 a] g8[ f] e[ f] g[ a16 h]
+    c4 d8 e d4 g,
+    a2 d8([ c)] h([ a)]
+    g[( a] h[ c16 d] c8[ d)] e4 %10
+    r2 c4. c8
+    h([ a)] g([ f)] e4 a~
+    a8[ g f e] d4 d'~
+    d8[ c16 h] c4~ c8 b4 a16[ g]
+    a2 g4 r %15
+    r8 a4 g16([ f)] g4. a16([ b)]
+    c4.( b8) a4 r
+    r8 c4 d16([ e)] f4. f8
+    e4. d16 c d2
+    c4 r r2 %20
+    r8 e4 d8 cis d e4
+    d r r2
+    r8 f4 e8 dis e fis4
+    e r8 g, fis2
+    e4 r r2 %25
+    R1*2
+    e'4. e8 c4 h8([ a)]
+    gis2 a4 r
+    d4. d8 h4 a8([ g)] %30
+    fis2 g4 d'~
+    d8 c16([ h)] c4 r8 c b([ a)]
+    g4 r r2
+    c4. f,8 e([ f)] g([ a16 b)]
+    c8[ d16 e] f8[ d16 c] h8 c4 h8 %35
+    c4 r r2
+    c4. c8 h4. c16([ d)]
+    e4 d8 d c2~
+    c4 h c r\fermata \bar "|." %39 finis
+  }
+}
 
-% Ky -- ri -- e e -- lei -- son.
-% Chri -- ste e -- lei -- son.
-% Ky -- ri -- e e -- lei -- son.
+KyrieSopranoLyrics = \lyricmode {
+  Ky -- ri -- %5
+  e __ e -- lei -- _
+  _ _ _
+  _ son, e -- lei -- son,
+  Chri -- ste __ e --
+  lei -- son, %10
+  Ky -- ri --
+  e __ e -- lei -- _
+  _ _
+  _ _ _
+  _ son, %15
+  Ky -- ri -- e e --
+  lei -- son,
+  Ky -- ri -- e e --
+  lei -- son, e -- lei --
+  son, %20
+  Ky -- ri -- e e -- lei --
+  son,
+  Ky -- ri -- e e -- lei --
+  son, e -- lei --
+  son, %25
+
+  Ky -- ri -- e e -- %28
+  lei -- son,
+  Ky -- ri -- e e -- %30
+  lei -- son, Ky --
+  ri -- e e -- lei --
+  son,
+  Ky -- ri -- e __ e --
+  lei -- _ _ _ _ %35
+  son,
+  Ky -- ri -- e e --
+  lei -- son, e -- lei --
+  _ son. %39 finis
+}
 
 
-% # Sequentia
+
+
 
 % Di -- es ir -- ae, di -- es il -- la
 % sol -- vet sae -- clum in fa -- vil -- la:

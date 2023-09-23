@@ -59,3 +59,74 @@ IntroitusBassoLyrics = \lyricmode {
   in Ie -- ru -- sa --
   lem. %34 finis
 }
+
+KyrieBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoKyrie
+    R1*6 %6
+    r2 \mvTr g'4.\f^\tutti g8
+    e4 d8([ c)] h4 e~
+    e8[ d16 e] d8[ c] h[ c] d[ e16 f]
+    g2 c,4 r %10
+    R1*4
+    f4. f8 e8([ d)] c([ b)] %15
+    a4 d~ d8[ c16 d] c8[ b]
+    a[ b] c[ d16 e] f8[ e16 f] g8[ f16 g]
+    a4. f16[ g] a8[ g16 a] h!8[ a16 h]
+    c4 c, r2
+    r4 a'~ a8 g16([ a)] g([ f)] e([ d)] %20
+    e8 c r4 r2
+    r4 b'~ b8 a16([ b)] a([ g)] f([ e)]
+    f8 d r4 r2
+    r4 c'!~ c8 h!16([ c)] h([ a)] g([ fis)]
+    g8 e4 fis16([ gis)] a4 a, %25
+    f'8 e d e16([ fis)] g4 g,
+    e'8 d c d16([ e)] f4 d8 d
+    e2 a,4 r
+    R1
+    r8 d4 e16([ fis)] g4 r %30
+    R1
+    r8 c,4 d16([ e)] f4 b,
+    c8([ b16 c] a8[ d] h2)
+    c4 r r2
+    R1 %35
+    c'4. c8 h!([ a)] g([ f)]
+    e4 a~ a8[ g16 a] g8[ f]
+    e[ f] g[ a16 h] c8[ g] e c
+    g'2 c,4 r\fermata \bar "|." %39 finis
+  }
+}
+
+KyrieBassoLyrics = \lyricmode {
+  Ky -- ri -- %7
+  e e -- lei -- _
+  _ _ _
+  _ son, %10
+
+  Ky -- ri -- e __ e -- %15
+  lei -- _ _
+  _ _ _ _
+  _ _ _ _
+  _ son,
+  Ky -- ri -- e __ e -- %20
+  lei -- son,
+  Ky -- ri -- e __ e --
+  lei -- son,
+  Ky -- ri -- e __ e --
+  lei -- son, e -- lei -- son, %25
+  Ky -- ri -- e e -- lei -- son,
+  Ky -- ri -- e e -- lei -- son, e --
+  lei -- son,
+
+  Ky -- ri -- e, %30
+
+  Ky -- ri -- e e --
+  lei --
+  son,
+  %35
+  Ky -- ri -- e __ e --
+  lei -- _ _
+  _ _ _ son, e --
+  lei -- son. %39 finis
+}
