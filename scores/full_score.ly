@@ -11,10 +11,16 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new Staff \with { \smallStaffDistance } <<
+          \new Staff <<
             \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
             \partCombine #'(0 . 10) \IntroitusClarinoI \IntroitusClarinoII
           >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
+          \IntroitusTimpani
+        }
+        \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = \markup { \rotate #90 "Trombone" \hspace #10 }
             \new Staff {
@@ -31,10 +37,6 @@
             }
           >>
         >>
-        \new Staff {
-          \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
-          \IntroitusTimpani
-        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "Violino"
@@ -92,10 +94,16 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new Staff \with { \smallStaffDistance } <<
+          \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
             \partCombine #'(0 . 10) \KyrieClarinoI \KyrieClarinoII
           >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          \KyrieTimpani
+        }
+        \new StaffGroup <<
           \new GrandStaff <<
             \new Staff {
               \set Staff.instrumentName = \markup \center-column { "trb" "1" }
@@ -111,10 +119,6 @@
             }
           >>
         >>
-        \new Staff {
-          \set Staff.instrumentName = "timp"
-          \KyrieTimpani
-        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
@@ -172,10 +176,16 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new Staff \with { \smallStaffDistance } <<
+          \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
             \partCombine #'(0 . 10) \SequentiaClarinoI \SequentiaClarinoII
           >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          \SequentiaTimpani
+        }
+        \new StaffGroup <<
           \new GrandStaff <<
             \new Staff {
               \set Staff.instrumentName = \markup \center-column { "trb" "1" }
@@ -191,10 +201,6 @@
             }
           >>
         >>
-        \new Staff {
-          \set Staff.instrumentName = "timp"
-          \SequentiaTimpani
-        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
@@ -252,10 +258,16 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new Staff \with { \smallStaffDistance } <<
+          \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
             \partCombine #'(0 . 10) \OffertoriumClarinoI \OffertoriumClarinoII
           >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          \OffertoriumTimpani
+        }
+        \new StaffGroup <<
           \new GrandStaff <<
             \new Staff {
               \set Staff.instrumentName = \markup \center-column { "trb" "1" }
@@ -271,10 +283,6 @@
             }
           >>
         >>
-        \new Staff {
-          \set Staff.instrumentName = "timp"
-          \OffertoriumTimpani
-        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
@@ -332,10 +340,16 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new Staff \with { \smallStaffDistance } <<
+          \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
             \partCombine #'(0 . 10) \SanctusClarinoI \SanctusClarinoII
           >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          \SanctusTimpani
+        }
+        \new StaffGroup <<
           \new GrandStaff <<
             \new Staff {
               \set Staff.instrumentName = \markup \center-column { "trb" "1" }
@@ -351,10 +365,6 @@
             }
           >>
         >>
-        \new Staff {
-          \set Staff.instrumentName = "timp"
-          \SanctusTimpani
-        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
@@ -412,10 +422,16 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new Staff \with { \smallStaffDistance } <<
+          \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
             \partCombine #'(0 . 10) \BenedictusClarinoI \BenedictusClarinoII
           >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          \BenedictusTimpani
+        }
+        \new StaffGroup <<
           \new GrandStaff <<
             \new Staff {
               \set Staff.instrumentName = \markup \center-column { "trb" "1" }
@@ -431,10 +447,6 @@
             }
           >>
         >>
-        \new Staff {
-          \set Staff.instrumentName = "timp"
-          \BenedictusTimpani
-        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
@@ -492,10 +504,16 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new Staff \with { \smallStaffDistance } <<
+          \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
             \partCombine #'(0 . 10) \AgnusClarinoI \AgnusClarinoII
           >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          \AgnusTimpani
+        }
+        \new StaffGroup <<
           \new GrandStaff <<
             \new Staff {
               \set Staff.instrumentName = \markup \center-column { "trb" "1" }
@@ -511,10 +529,6 @@
             }
           >>
         >>
-        \new Staff {
-          \set Staff.instrumentName = "timp"
-          \AgnusTimpani
-        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
