@@ -1,32 +1,30 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "trb 3")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Introitus"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2.5\cm systems-per-page = #3 }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \IntroitusOrgano
+          \set Staff.instrumentName = "Trombone III"
+          \IntroitusTromboneIII
         }
-        \new FiguredBass { \IntroitusBassFigures }
       >>
     }
   }
   \bookpart {
     \section "2" "Kyrie"
     \addTocEntry
-    \paper { page-count = #1 }
+    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \KyrieOrgano }
-        \new FiguredBass { \KyrieBassFigures }
+        \new Staff { \KyrieTromboneIII }
       >>
     }
   }
@@ -35,8 +33,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SequentiaOrgano }
-        \new FiguredBass { \SequentiaBassFigures }
+        \new Staff { \SequentiaTromboneIII }
       >>
     }
   }
@@ -45,39 +42,37 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \OffertoriumOrgano }
-        \new FiguredBass { \OffertoriumBassFigures }
+        \new Staff { \OffertoriumTromboneIII }
       >>
     }
   }
   \bookpart {
     \section "5" "Sanctus"
     \addTocEntry
-    \paper { systems-per-page = #7 }
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \SanctusOrgano }
-        \new FiguredBass { \SanctusBassFigures }
+        \new Staff { \SanctusTromboneIII }
       >>
     }
   }
   \bookpart {
     \section "6" "Benedictus"
     \addTocEntry
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \BenedictusOrgano }
-        \new FiguredBass { \BenedictusBassFigures }
+        \new Staff { \BenedictusTromboneIII }
       >>
     }
   }
   \bookpart {
     \section "7" "Agnus Dei"
     \addTocEntry
+    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \AgnusOrgano }
-        \new FiguredBass { \AgnusBassFigures }
+        \new Staff { \AgnusTromboneIII }
       >>
     }
   }

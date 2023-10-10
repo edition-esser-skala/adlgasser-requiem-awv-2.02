@@ -1,32 +1,30 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Introitus"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2\cm page-count = #1 }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \IntroitusOrgano
+          \set Staff.instrumentName = "Violino II"
+          \IntroitusViolinoII
         }
-        \new FiguredBass { \IntroitusBassFigures }
       >>
     }
   }
   \bookpart {
     \section "2" "Kyrie"
     \addTocEntry
-    \paper { page-count = #1 }
+    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \KyrieOrgano }
-        \new FiguredBass { \KyrieBassFigures }
+        \new Staff { \KyrieViolinoII }
       >>
     }
   }
@@ -35,18 +33,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SequentiaOrgano }
-        \new FiguredBass { \SequentiaBassFigures }
+        \new Staff { \SequentiaViolinoII }
       >>
     }
   }
   \bookpart {
     \section "4" "Offertorium"
     \addTocEntry
+    \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \OffertoriumOrgano }
-        \new FiguredBass { \OffertoriumBassFigures }
+        \new Staff { \OffertoriumViolinoII }
       >>
     }
   }
@@ -56,8 +53,7 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \SanctusOrgano }
-        \new FiguredBass { \SanctusBassFigures }
+        \new Staff { \SanctusViolinoII }
       >>
     }
   }
@@ -66,18 +62,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BenedictusOrgano }
-        \new FiguredBass { \BenedictusBassFigures }
+        \new Staff { \BenedictusViolinoII }
       >>
     }
   }
   \bookpart {
     \section "7" "Agnus Dei"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \AgnusOrgano }
-        \new FiguredBass { \AgnusBassFigures }
+        \new Staff { \AgnusViolinoII }
       >>
     }
   }
