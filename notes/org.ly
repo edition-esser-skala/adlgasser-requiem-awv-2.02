@@ -490,7 +490,7 @@ SequentiaBassFigures = \figuremode {
   r
   <7 5 _!>
   <_+>
-  r8 <7! 5> <\l>4. \once \bassFigureExtendersOn q8
+  r8 <7- 5> <\l>4. \once \bassFigureExtendersOn q8
   r <7 5> r2 %50
   r2.
   r
