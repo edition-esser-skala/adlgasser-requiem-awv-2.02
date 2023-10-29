@@ -613,3 +613,488 @@ SequentiaChords = {
     c4 h es, r\fermata %202 finis
   } >>
 }
+
+OffertoriumChords = {
+  \clef treble
+  \key c \major \time 4/4 \tempoOffertorium
+  << \relative c' {
+    <g' c>2 <f h>8 <g c> r4
+    q2 <f h>8 <g c> r4
+    r <e g> <g a,> <f h,>
+    <c e> r r8 <d f> q4
+    <c e>2 <d g> %5
+    a'4 r8 <fis a> <d g>4 <c a'>8 <h g'>
+    <d fis>2 <cis g'>8 <d fis>4.
+    <cis g'>8 <d fis>4. <g c>4 <d a'>
+    g2~ g8 <e a> <h g'> <a fis'>
+    <d g>4 r <g h> r %10
+    q8 <a c> <g h> <fis a> <d g>2
+    <e a>8 <d g> r4 q2
+    <e a>8 <d g> g4 as2
+    <f h> r8. <es as>16 <c as'>4
+    <f as> g~ <es g> f %15
+    <d g>2. r4
+    q2 <e a>8 <fis h> c'4
+    <g h> r r8 q a4
+    <d, g>4 r r8 <c e> <d a'> <d g>
+    <e g>4 r <c e> <f, d'> %20
+    <g c> r <c e> <f, d'>
+    <e c'> <a c>8 <g h> <g c>4 r
+    <e' g> r <g c>8 <a d> <e c'> <d h'> \noBreak
+    <g c>4 r r2\fermata \bar "||"
+    \time 2/2 \tempoQuam s1*12 %36
+    <g h>2 <d g>
+    fis g~
+    g <d a'>
+    <d g>1 %40
+    <c g'>2 e
+    <d f> e
+    d1
+    c2 <c e>
+    <d a'>1 %45
+    <e gis>2 s
+    s1*3
+    g2 f %50
+    cis d~
+    d <a e'>
+    <d f> <f a>
+    <f h>4 <e c'> <d h'> <d a'>
+    <g c>1 %55
+    <a c>2 <g h>
+    <g c> s
+    s1*4 %61
+    <g c>1
+    <f h>2 <g c>~
+    q <g d'>~
+    d' c %65
+    <a c> <f d'>4 <e c'>
+    <g h>2 <g c>
+    c h \noBreak
+    <g c>1\fermata \bar "||"
+    \key f \major \time 3/4 \tempoHostias <f a>2. \noBreak %70
+    <g c>
+    <f a>2 <e g>4
+    f2 <f a>4
+    <f b>2.
+    <f a> %75
+    <c g'>
+    <a f'>4 f' e
+    <c f>2.
+    <c g'>
+    <f a>2 <e a>4 %80
+    f2 <f a>4
+    <f b>2.
+    <f a>
+    <c f>4 <b e>2
+    <c f> r4 %85
+    <d g>2.
+    <c g'>
+    <d f>4 <d a'>2
+    <d g> r4
+    <f h> r r %90
+    <g c> r r
+    <f h> r r
+    <g c>2.
+    <a c>
+    c2 h4 %95
+    <g c>2.
+    <g d'>
+    <g c>4 c h
+    <g c>2 r4
+    <fis a>2. %100
+    <d g>
+    <d a'>
+    <d g>
+    <e g>
+    <f a>2 r4 %105
+    <e g> r r
+    <f a> r r
+    <e g> r r
+    <f a>2.
+    <f g> %110
+    <e g>8 <f a> <c g'>2
+    <c f>2 <c g'>4
+    <c f> f e
+    <c f> r r\fermata \markQuamDaCapo \bar "||" %114 finis
+  } \\ \relative c' {
+    e2 d8 c r4
+    e2 d8 c r4
+    r c d2
+    g,4 r r8 h h4
+    g2 g %5
+    d'4 r8 c h4 e
+    a,2 b8 a4.
+    b8 a4. c2
+    <h d>4 <c e> <h d>8 c d4
+    h r d r %10
+    d8 e d4 h2
+    c8 h r4 h2
+    c8 h g'2 f!4
+    d2 r8. c16 es8 f
+    c[ d] d <c es> c2 %15
+    h2. r4
+    g2 c8 h <e g> <d a'>
+    d4 r r8 e <e g> <d fis>
+    h4 r r8 a c h
+    c4 r g a8 g %20
+    e4 r g a8 g
+    g a d,4 e r
+    c' r e8 f g4
+    e r r2\fermata
+    s1*12 %36
+    d2 h
+    c d~
+    <h d>4 <g c> c2
+    h1 %40
+    g2 c
+    h1
+    a2 <g h>
+    g g
+    a1 %45
+    h2 s
+    s1*3
+    <a d>1 %50
+    g2 a~
+    a4 g g2
+    a d
+    g2. a,4
+    e'1 %55
+    f
+    e2 s
+    s1*4 %61
+    e1
+    d2 c
+    e f
+    <e g>1 %65
+    f2 a
+    d, e
+    <d g>1
+    e\fermata
+    c2. %70
+    c
+    c
+    <a d>4 <f c'> c'
+    d2.
+    c %75
+    f4 e2
+    c8 d <g, c>2
+    a2.
+    g
+    c2 c4 %80
+    <a d> <f c'> c'
+    d2.
+    c
+    g
+    a2 r4 %85
+    h2.
+    g
+    a4 d8 c c4
+    c h r
+    d r r %90
+    e r r
+    d r r
+    e2.
+    es
+    <es g>4~ <d g>2 %95
+    e2.
+    d
+    e4 <d g>2
+    e r4
+    d2. %100
+    g,
+    d'4. c8 c4
+    b2.
+    d4 c8 b4.
+    c2 r4 %105
+    b r r
+    c r r
+    b r r
+    c2.
+    d %110
+    c4 f e
+    a,2 g8 b
+    a4 <g c>2
+    a4 r r\fermata %114 finis
+  } >>
+}
+
+SanctusChords = {
+  \clef treble
+  \key c \major \time 4/4 \tempoSanctus
+  << \relative c' {
+    c'1~
+    c2 c8 r r4
+    <g h>8 r r4 <fis a>2
+    g4. <d a'>8 <d g>2~
+    <e g>8 f! <d f>4 <g, e'> <c a'>8 <h h'> \noBreak %5
+    a'2 <e gis>4 r\fermata \bar "||"
+    \time 3/4 \tempoPleni <gis h>2 <a c>4 \noBreak
+    q <gis h> <a c>
+    q <gis h> <a c>
+    q <gis h> r %10
+    \oneVoice R2. \voiceOne
+    <a c>4 r r
+    <a d> r r
+    <g! h> r r
+    <g c>2. %15
+    <a c>
+    q4 <a d>2
+    <g d'> <g c>4
+    <e c'> <d h'> g8 g
+    <h d>2.~ %20
+    q4 c8 a4 g8
+    e c4 c c8
+    <e g>2.~
+    q4 f <f a>
+    h2 <g c>4 %25
+    <a c>8 <a d> <e c'>4 <d h'>
+    <g c>2 <f a>4
+    q <e g> <f a>
+    q <e g> <f a>
+    q <e g> <g c> %30
+    <f a>2 <a d>4
+    <h d>2 <g c>4
+    <a d> <e c'> <d h'>
+    <g c>2 r4\fermata \bar "|." %34 finis
+  } \\ \relative c' {
+    r2 <fis a>
+    <e g> <d a'>8 r r4
+    d8 r r4 d2
+    <h d>8 <g c>4 c8 h2
+    c4 g d'8 c e4 %5
+    <c e> <a d> h r\fermata
+    e2 e4
+    fis e e
+    fis e e
+    fis e r %10
+    s2.
+    e4 r r
+    f r r
+    d r r
+    e2. %15
+    e
+    e4 d f
+    f2 e4
+    g2 s4
+    g2.~ %20
+    g4. e8 c d
+    c s s2
+    c2.
+    c2 d4
+    <d f> <h e> e %25
+    e8 f g2
+    e2 c4
+    d c c
+    d c c
+    d c e %30
+    c2 f4
+    g2 e4
+    f g2
+    e r4\fermata %34 finis
+  } >>
+}
+
+BenedictusChords = {
+  \clef treble
+  \key a \minor \time 4/4 \tempoBenedictus
+  << \relative c' {
+    <e a>2 <e gis>
+    <c a'> <f a>4 <e gis>
+    <e a>8 r <f a> r q r <e gis> r
+    <e a>2 r8 <d a'> <e gis> <f a>
+    r <d a'> <e gis> <f a> a gis <f h>4 %5
+    <c a'> <f a>8 <e gis> <e a>4 r
+    q2 <e gis>
+    <c a'> <f a>4 <e gis>
+    <e a>8 r q r <f a> r <e gis> r
+    <e a>2 <f a> %10
+    <f g> <e g>
+    a4 f <c e> <h d>
+    <g c> <e' g> <g h>2
+    <e c'> <a c>4 <g h>
+    <g c>8 r <a c> r q r <g h> r %15
+    <g c>4 <e g> <e gis>2
+    <c a'> <f a>4 <e gis>
+    <e a>8 r <f a> r q r <e gis> r
+    <e a>2 <f a>
+    <f g> <e g> %20
+    a4 f <h, e>2
+    r8 <d a'> <e gis> <f a> r <d a'> <e gis> <f a>
+    <e gis>4 <e h'> <e a> <dis a'>
+    <c a'> <h gis'> <e a>2
+    r8 <d a'> <e gis> <f a> r <d a'> <e gis> <f a> %25
+    a gis <f h>4 <c a'> <f a>8 <e gis> \noBreak
+    <e a>4 r r2\fermata \bar "||"
+    \key c \major \time 3/4 \tempoOsanna
+      \oneVoice R2.
+    r8 g g g g g
+    d'4. a4 g16 f %30
+    e8 c4 c c8 \voiceOne
+    <e g>2.~
+    q4 f <f a>
+    h2 <g c>4
+    <a c>8 <a d> <e c'>4 <d h'> %35
+    <g c>2 <f a>4
+    q <e g> <f a>
+    q <e g> <f a>
+    q <e g> <g c>
+    <f a>2 <a d>4 %40
+    <h d>2 <g c>4
+    <a d> <e c'> <d h'>
+    <g c>2 r4\fermata \bar "|." %43 finis
+  } \\ \relative c' {
+    c2 d
+    e4 f h,2
+    c8 r c r h r h r
+    c2 r8 a h d
+    r a h d <h e>4 d %5
+    e8 f h,4 c r
+    c2 d
+    e4 f h,2
+    c8 r c r h r h r
+    c2 c %10
+    <h d> h
+    <a d> g
+    e4 c' f2
+    g4 a d,2
+    e8 r e r d r d r %15
+    e4 c d2
+    e4 f h,2
+    c8 r c r h r h r
+    c2 c
+    <h d> h %20
+    <a d> gis
+    r8 a h d r a h d
+    h4 h8 d c4 c
+    e2 c
+    r8 a h d r a h d %25
+    <h e>4 d e8 f h,4
+    c r r2\fermata
+    s2.*4 %31
+    c2.
+    c2 d4
+    <d f> <h e> e
+    e8 f g2 %35
+    e2 c4
+    d c c
+    d c c
+    d c e
+    c2 f4 %40
+    g2 e4
+    f g2
+    e r4\fermata %43 finis
+  } >>
+}
+
+AgnusChords = {
+  \clef treble
+  \key c \major \time 3/4 \tempoAgnus
+  << \relative c' {
+    <g' c>2 <e c'>4
+    <g h> <g c>4. <e c'>8
+    <g h>4 <g c>4. <e c'>8
+    <g h>4 <g c>4 <g h>8 <g c>
+    <e c'>4 <d h'> r %5
+    <d g>2.
+    r4 fis g
+    r <c, fis> <d g>
+    <d fis>2.
+    <h g'>8 <c a'> <h g'>4 <a fis'> %10
+    <d g>4 r <h g'>
+    <fis' a> <d g>4. <h e>8
+    <d fis>4 <d g>2
+    <e g>4 <h g'> <a fis'>
+    <d g> r <cis g'> %15
+    <d fis> r <cis g'>
+    <d fis>2 r4
+    <d a'>2.
+    <d g>2 <d a'>4
+    <e gis>2 <e a>4 %20
+    <f h> <e gis> <e h'>
+    <e a> a gis
+    a <e a>2
+    <e b'>2.
+    <g a>~ %25
+    q2 <f a>4
+    <e a> a gis
+    <e a> r r
+    <f a>2.
+    r4 <f a>8 <e g> <d f>4 %30
+    r <e g> <d f>
+    <e g>2.
+    <d f>4 q <cis e>
+    <a d> <f' a> <f b>
+    <a cis> <a d>4. <f b>8 %35
+    <a cis>4 <a d>4. <e c'>8
+    <g h>4 <g c>4. <e c'>8
+    <g h>4 <g c>4. <g h>8
+    <f a>2 <a d>8 <a c>
+    <e c'> <d h'> <h' d>2 %40
+    <g c>4 <h d>2
+    <g c>2 <a c>4
+    <a d> <e c'> <d h'> \noBreak
+    <g c> r r\fermata \bar "||"
+    \time 4/4 \tempoRequiem
+      \oneVoice R1*7 %51
+    r2 r8 \voiceOne <d g> q4
+    <c a'>4 <f a>8 <a d> <g h> <g c> <a d>4~
+    q8 <g c> <a d>4 <g h>8 <g c> <a c> <a d>
+    <e c'>4 <d h'> <g c> r %55
+    \oneVoice R1*4 \voiceOne
+    c4 d <h d>8 <g c> <g h>4 %60
+    <g c> r r2\fermata \bar "|." %61 finis
+  } \\ \relative c' {
+    e2 c4
+    d e4. c8
+    d4 e4. c8
+    d4 e f8 e
+    g2 r4 %5
+    h,2.
+    r4 <h d>8 <a c> <h d>4
+    r a h
+    c2.
+    d4 d2 %10
+    h4 r d8 e
+    d4 h4. g8
+    a4 h2
+    c4 d2
+    h4 r a %15
+    a r a
+    a2 r4
+    a2 c!4
+    h2 a4
+    h2 c4 %20
+    d d d
+    c <h e>2
+    <c e>4 c2
+    cis2.~
+    cis %25
+    e2 d4
+    a <d f>2
+    cis4 r r
+    d2.
+    r4 cis a %30
+    r cis a
+    <a cis>2.
+    a4 a2
+    f4 d' d
+    e f4. d8 %35
+    e4 f4. c8
+    d4 e4. c8
+    d4 e4. d8
+    c4 d f8 e
+    g4 f2 %40
+    e4 f2
+    e e4
+    f g2
+    e4 r r\fermata
+    s1*7 %51
+    s2 s8 h h4
+    e8 f c f d e f4~
+    f8 e f4 d8 c f f
+    g2 e4 r %55
+    s1*4
+    <f a>2 f8 e d4 %60
+    e r r2\fermata
+  } >>
+}
