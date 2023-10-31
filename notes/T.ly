@@ -647,7 +647,7 @@ BenedictusTenoreLyrics = \lyricmode {
   cel -- sis, in ex --
   cel -- sis,
   in ex -- %40
-  cel -- sis,
+  cel -- sis, in
   ex -- cel --
   sis. %34 finis
 }
