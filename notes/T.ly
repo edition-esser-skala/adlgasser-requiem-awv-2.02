@@ -151,7 +151,7 @@ SequentiaTenore = {
     e2 e,8 h'4 c8 %15
     c h r4 r h8 h
     c4 c a4. a8
-    h h h c16([ d)] g,8^\critnote g r4
+    h h h c16([ d)] e8 g, r4
     r2 r8 g4 a8
     a g r4 r8 d'4 h8 %20
     g e' e c a a r4

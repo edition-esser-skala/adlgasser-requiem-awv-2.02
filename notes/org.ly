@@ -396,7 +396,7 @@ SequentiaOrgano = {
     es es e e e e
     f4 r8 f, a b %160
     c4 r8 f a b
-    c c, c'16^\critnote b a g f4
+    c c, c' a16 g f4
     b, c c,
     f f'\f f
     f f e %165
