@@ -126,16 +126,19 @@ KyrieChords = {
   \clef treble
   \key c \major \time 4/4 \tempoKyrie
   << \relative c' {
-    s1*4
-    s2. c'4 %5
+    \oneVoice R1*2
+    g'4. g8 e4 d8 c
+    h4 e4. d16 e d8 c
+    h c d e16 f g4 \voiceOne c %5
     h8 a g f e4 a~
     a8 g16 a g8 f e4 d
     <c e> <h f'>8 <c e> g' f <e h>4
     <c f> <f a> d'8 c h a
     <g d>4 <g h> <g c>2 %10
     g c
-    h8 a g f e4 s
-    s1*2
+    h8 a g f e4 a~
+    a8 g f e d4 d'~
+    d8 c16 h c4~ c8 b4 a16 g
     <f a>2 <c g'>4 <e g>~ %15
     q <d f> <e g>4. <f a>16 <g b>
     <a c>4. <g b>8 <f a>4 <d g>
@@ -155,8 +158,8 @@ KyrieChords = {
     fis2 g4 d'~
     d8 c16 h c4 <f, a> <g b>8 <f a>
     <e g>4 <f a>~ q8 <e g>16 <f a> <e g>8 <d f>
-    <c e>4 s2.
-    s2 <f h!>8 <e c'>~ c'[ h] %35
+    <c e>4 \oneVoice c'8 f, e f g a16 b
+    c4 f, \voiceOne <f h!>8 <e c'>~ c'[ h] %35
     <g c>2 <g d'>4 <g h>
     <g c> <e a> <g h>2
     <g c>4 <g h> <e g> <g c>
@@ -170,8 +173,9 @@ KyrieChords = {
     a d f8 e d c
     h4 d e2 %10
     r g4 e
-    d2 c4 s
-    s1*2
+    d2 c4 c8 h16 a
+    d4. c8 h a g a16 h
+    c8 d e d16 c d4 e
     c2 g4 c~ %15
     c a b c
     c2 c4 h

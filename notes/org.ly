@@ -125,6 +125,51 @@ IntroitusBassFigures = \figuremode {
   r2. %57 finis
 }
 
+KyrieBassi = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoKyrie
+    \mvTr c'4.\f-\tutti-\vlc c8 h a g f
+    e4 a4. g16 a g8 f
+    e8 f g a16 h c4 f,
+    g8 f e d c4 f
+    g4. f8 e4 e' %5
+    d g, a8 g16 a f8 d'
+    h2 g4.-\bassi g8
+    e4 d8 c h4 e~
+    e8 d16 e d8 c h c d e16 f
+    g2 c,4 c'-\vlc %10
+    h8 a g f e4 a
+    g4. a16 h c4 r
+    R1*2
+    f,4.-\bassi f8 e d c b %15
+    a4 d4~ d8 c16 d c8 b
+    a b c d16 e f8 e16 f g8 f16 g
+    a4. f16 g a8 g16 a h!8 a16 h
+    c4 c~-\vlc c8 h16 a h4
+    c a~-\bassi a8 g16 a g f e d %20
+    e8 c c'[-\vlc b] a4. h16 cis
+    d4 b~-\bassi b8 a16 b a g f e
+    f8 d d'[-\vlc c!] h!4. cis16 dis
+    e4 c~-\bassi c8 h16 c h a g fis
+    g8 e4 fis16 gis a4 a, %25
+    f'8 e d e16 fis g4 g,
+    e'8 d c d16 e f4 d
+    e2 a,4 f''~-\vlc
+    f8 e16 f e d c h c8 a4 h16 c
+    d8 d,4-\bassi e16 fis g4 e'~-\vlc %30
+    e8 d16 e d c h a h8 g r4
+    r8 c,4-\bassi d16 e f4 b,
+    c8 b16 c a8 d h2
+    c4 g'8-\vlc a16 b c4. b8
+    a4 d8 f f e d4 %35
+    c4.-\bassi c8 h! a g f
+    e4 a~ a8 g16 a g8 f
+    e f g a16 h c8 g e c
+    g'4 g, c r\fermata \bar "|." %39 finis
+  }
+}
+
 KyrieOrgano = {
   \relative c {
     \clef "treble_8"

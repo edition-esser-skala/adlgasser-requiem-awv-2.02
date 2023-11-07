@@ -28,7 +28,7 @@
       <<
         \new PianoStaff <<
           \new Staff { \KyrieChords }
-          \new Staff { \KyrieOrgano }
+          \new Staff { \KyrieBassi }
         >>
         \new FiguredBass { \KyrieBassFigures }
       >>

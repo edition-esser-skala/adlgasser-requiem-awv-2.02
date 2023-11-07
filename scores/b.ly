@@ -24,7 +24,7 @@
     \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \KyrieOrgano }
+        \new Staff { \KyrieBassi }
       >>
     }
   }
