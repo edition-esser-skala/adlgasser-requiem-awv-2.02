@@ -1,7 +1,7 @@
 # Changelog
 
-## 0.0.9000 – 2023-09-24
+## 1.0.0 – 2023-11-07
 
 ### Added
 
-- initial release for proofreading
+- initial release
